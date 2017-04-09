@@ -1,14 +1,6 @@
-package com.ditcherj.generator.dto;//
-// Source code recreated from a .class file by IntelliJ IDEA
-// (powered by Fernflower decompiler)
-//
-
+package com.ditcherj.generator.dto;
 
 import java.io.Serializable;
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.LinkedList;
-import java.util.List;
 
 public class Position implements Serializable {
     private int leftFoot;
@@ -29,6 +21,9 @@ public class Position implements Serializable {
     private int amr;
     private int st;
 
+    public Position() {
+    }
+
     public Position(int leftFoot, int rightFoot, int gk, int sw, int dr, int dl, int dc, int wbr, int wbl, int dm, int ml, int mc, int mr, int aml, int amc, int amr, int st) {
         this.leftFoot = leftFoot;
         this.rightFoot = rightFoot;
@@ -47,15 +42,6 @@ public class Position implements Serializable {
         this.amc = amc;
         this.amr = amr;
         this.st = st;
-    }
-
-    public Position() {
-        List<Position> positionList = new LinkedList();
-        Collections.sort(positionList, new Comparator<Position>() {
-            public int compare(Position o1, Position o2) {
-                return 0;
-            }
-        });
     }
 
     public int getLeftFoot() {
@@ -195,51 +181,19 @@ public class Position implements Serializable {
     }
 
     public int getDefender() {
-        int largest = this.dr;
-        if(this.dl > largest) {
-            largest = this.dl;
-        }
-
-        if(this.dc > largest) {
-            largest = this.dc;
-        }
-
-        return largest;
+        return Math.max(Math.max(this.dr, this.dl), this.dc);
     }
 
     public int getWingBack() {
-        int largest = this.wbr;
-        if(this.wbl > largest) {
-            largest = this.wbl;
-        }
-
-        return largest;
+        return Math.max(this.wbr, this.wbl);
     }
 
     public int getMidfielder() {
-        int largest = this.mr;
-        if(this.ml > largest) {
-            largest = this.ml;
-        }
-
-        if(this.mc > largest) {
-            largest = this.mc;
-        }
-
-        return largest;
+        return Math.max(Math.max(this.mr, this.ml), this.mc);
     }
 
     public int getAttackingMidfielder() {
-        int largest = this.amr;
-        if(this.aml > largest) {
-            largest = this.aml;
-        }
-
-        if(this.amc > largest) {
-            largest = this.amc;
-        }
-
-        return largest;
+        return Math.max(Math.max(this.amr, this.aml), this.amc);
     }
 
     public int getRight() {
@@ -361,29 +315,5 @@ public class Position implements Serializable {
                 ", amr=" + amr +
                 ", st=" + st +
                 '}';
-    }
-
-    public enum Positions {
-        GK("Goalkeeper"),
-        SW("Sweeper"),
-        DR("Defender (Right)"),
-        DL("Defender (Left)"),
-        DC("Defender (Center)"),
-        WBR("Wing Back (Right)"),
-        WBL("Wing Back (Left)"),
-        DM("Defensive Midfielder"),
-        ML("Midfielder (Left)"),
-        MC("Midfielder (Center)"),
-        MR("Midfielder (Right)"),
-        AML("Attacking Midfielder (Left)"),
-        AMC("Attacking Midfielder (Center)"),
-        AMR("Attacking Midfielder (Right)"),
-        ST("Striker");
-
-        public String label;
-
-        private Positions(String label) {
-            this.label = label;
-        }
     }
 }

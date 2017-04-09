@@ -4,7 +4,8 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.io.Serializable;
-import java.util.*;
+import java.util.HashMap;
+import java.util.Map;
 
 /**
  * Created with IntelliJ IDEA.
@@ -18,7 +19,6 @@ public class Player implements Serializable {
     private static final Logger logger = LoggerFactory.getLogger(Player.class);
 
     private Long id;
-    private String uuid;
     private int age;
     private String nationality;
     private String name;
@@ -175,14 +175,6 @@ public class Player implements Serializable {
         this.id = id;
     }
 
-    public String getUuid() {
-        return uuid;
-    }
-
-    public void setUuid(String uuid) {
-        this.uuid = uuid;
-    }
-
     public Position getPosition() {
         return position;
     }
@@ -193,20 +185,13 @@ public class Player implements Serializable {
     public String getName() {
         return name;
     }
-
     public void setName(String name) {
         this.name = name;
     }
 
     public int getIntegerAttribute(PlayerAttribute key){
-        Object val = this.getAttribute(key);
-
-        if(val instanceof Double)
-            return ((Double) val).intValue();
-
-        return (Integer)val;
+        return this.getAttribute(key).intValue();
     }
-
 
     public int getDisplayAttribute(PlayerAttribute key){
         return this.getIntegerAttribute(key) / 100;
@@ -336,7 +321,7 @@ public class Player implements Serializable {
         return this.attributes.get(key);
     }
 
-    public Object getAttribute(String key) {
+    public Double getAttribute(String key) {
         return this.attributes.get(key);
     }
 
@@ -376,7 +361,6 @@ public class Player implements Serializable {
     public String toString() {
         return "Player{" +
                 "id=" + id +
-                ", uuid='" + uuid + '\'' +
                 ", age=" + age +
                 ", nationality='" + nationality + '\'' +
                 ", name='" + name + '\'' +

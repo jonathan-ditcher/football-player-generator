@@ -97,18 +97,4 @@ public class BetaShape {
                 ", kurtosis_excess=" + getKurtosis_excess() +
                 '}';
     }
-
-    public static void main(String[] args) throws Exception {
-        for(BetaShape betaShape : BETA_SHAPES){
-            for(int i=1; i<=20; i++){
-                BetaDistribution beta = new BetaDistribution(betaShape.getAlpha(), betaShape.getBeta());
-                double lower = beta.cumulativeProbability(((double)i/20.0)-0.05);
-                double upper = beta.cumulativeProbability((double)i/20.0);
-                double discrete = upper - lower;
-                double cdf = upper;
-
-                System.out.println(betaShape.toString() + " lower=" + lower + ", upper=" +upper);
-            }
-        }
-    }
 }

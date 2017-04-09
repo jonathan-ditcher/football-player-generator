@@ -2,11 +2,11 @@ package com.ditcherj.generator;
 
 import com.ditcherj.generator.dto.*;
 import org.apache.commons.math3.distribution.BetaDistribution;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.lang.reflect.InvocationTargetException;
 import java.util.*;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 
 /**
  * Created with IntelliJ IDEA.
@@ -36,7 +36,6 @@ public class PlayerGenerator {
         double pa_adjustment = Math.pow((ability / 600.0), 0.5);
 
         Collections.sort(template1.getAttributes(), (o1, o2) -> o1.getPlayerAttribute().compareTo(o2.getPlayerAttribute()));
-
         Collections.sort(template2.getAttributes(), (o1, o2) -> o1.getPlayerAttribute().compareTo(o2.getPlayerAttribute()));
 
         for(int i=0; i<template1.getAttributes().size(); i++){
@@ -51,7 +50,7 @@ public class PlayerGenerator {
             int newVal = getClosestValue((int)Math.round(pa_weighting)) * 100;
 
             PlayerAttribute attribute = attribute1.getPlayerAttribute();
-            logger.trace("attr[{}] name[{}]", attribute, attribute1.getPlayerAttribute());
+            //logger.trace("attr[{}] name[{}]", attribute, attribute1.getPlayerAttribute());
 
             player.putAttribute(attribute, Double.valueOf(newVal));
         }
