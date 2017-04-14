@@ -5,7 +5,7 @@
             <key>LV</key>
             <value>
                 <isoCode>LV</isoCode>
-                <playerAttribute>Latvia</playerAttribute>
+                <name>Latvia</name>
                 <weighting>10</weighting>
             </value>
         </entry>
@@ -13,7 +13,7 @@
             <key>VU</key>
             <value>
                 <isoCode>VU</isoCode>
-                <playerAttribute>Vanuatu</playerAttribute>
+                <name>Vanuatu</name>
                 <weighting>3</weighting>
             </value>
         </entry>
@@ -21,7 +21,7 @@
             <key>LU</key>
             <value>
                 <isoCode>LU</isoCode>
-                <playerAttribute>Luxembourg</playerAttribute>
+                <name>Luxembourg</name>
                 <weighting>3</weighting>
             </value>
         </entry>
@@ -29,7 +29,7 @@
             <key>LT</key>
             <value>
                 <isoCode>LT</isoCode>
-                <playerAttribute>Lithuania</playerAttribute>
+                <name>Lithuania</name>
                 <weighting>10</weighting>
             </value>
         </entry>
@@ -37,7 +37,7 @@
             <key>LY</key>
             <value>
                 <isoCode>LY</isoCode>
-                <playerAttribute>Libya</playerAttribute>
+                <name>Libya</name>
                 <weighting>1</weighting>
             </value>
         </entry>
@@ -45,7 +45,7 @@
             <key>VN</key>
             <value>
                 <isoCode>VN</isoCode>
-                <playerAttribute>Vietnam</playerAttribute>
+                <name>Vietnam</name>
                 <weighting>1</weighting>
             </value>
         </entry>
@@ -53,7 +53,7 @@
             <key>EC</key>
             <value>
                 <isoCode>EC</isoCode>
-                <playerAttribute>Ecuador</playerAttribute>
+                <name>Ecuador</name>
                 <weighting>12</weighting>
             </value>
         </entry>
@@ -61,7 +61,7 @@
             <key>LS</key>
             <value>
                 <isoCode>LS</isoCode>
-                <playerAttribute>Lesotho</playerAttribute>
+                <name>Lesotho</name>
                 <weighting>1</weighting>
             </value>
         </entry>
@@ -69,7 +69,7 @@
             <key>LR</key>
             <value>
                 <isoCode>LR</isoCode>
-                <playerAttribute>Liberia</playerAttribute>
+                <name>Liberia</name>
                 <weighting>1</weighting>
             </value>
         </entry>
@@ -77,7 +77,7 @@
             <key>DZ</key>
             <value>
                 <isoCode>DZ</isoCode>
-                <playerAttribute>Algeria</playerAttribute>
+                <name>Algeria</name>
                 <weighting>8</weighting>
             </value>
         </entry>
@@ -85,7 +85,7 @@
             <key>DM</key>
             <value>
                 <isoCode>DM</isoCode>
-                <playerAttribute>Dominica</playerAttribute>
+                <name>Dominica</name>
                 <weighting>6</weighting>
             </value>
         </entry>
@@ -93,7 +93,7 @@
             <key>VE</key>
             <value>
                 <isoCode>VE</isoCode>
-                <playerAttribute>Venezuela</playerAttribute>
+                <name>Venezuela</name>
                 <weighting>3</weighting>
             </value>
         </entry>
@@ -101,7 +101,7 @@
             <key>ME</key>
             <value>
                 <isoCode>ME</isoCode>
-                <playerAttribute>Montenegro</playerAttribute>
+                <name>Montenegro</name>
                 <weighting>1</weighting>
             </value>
         </entry>
@@ -109,7 +109,7 @@
             <key>DO</key>
             <value>
                 <isoCode>DO</isoCode>
-                <playerAttribute>Dominican Republic</playerAttribute>
+                <name>Dominican Republic</name>
                 <weighting>2</weighting>
             </value>
         </entry>
@@ -117,7 +117,7 @@
             <key>VC</key>
             <value>
                 <isoCode>VC</isoCode>
-                <playerAttribute>St Vincent</playerAttribute>
+                <name>St Vincent</name>
                 <weighting>5</weighting>
             </value>
         </entry>
@@ -125,7 +125,7 @@
             <key>MK</key>
             <value>
                 <isoCode>MK</isoCode>
-                <playerAttribute>FYR Macedonia</playerAttribute>
+                <name>FYR Macedonia</name>
                 <weighting>1</weighting>
             </value>
         </entry>
@@ -133,7 +133,7 @@
             <key>ML</key>
             <value>
                 <isoCode>ML</isoCode>
-                <playerAttribute>Mali</playerAttribute>
+                <name>Mali</name>
                 <weighting>15</weighting>
             </value>
         </entry>
@@ -141,7 +141,7 @@
             <key>DE</key>
             <value>
                 <isoCode>DE</isoCode>
-                <playerAttribute>Germany</playerAttribute>
+                <name>Germany</name>
                 <weighting>49</weighting>
             </value>
         </entry>
@@ -149,7 +149,7 @@
             <key>UZ</key>
             <value>
                 <isoCode>UZ</isoCode>
-                <playerAttribute>Uzbekistan</playerAttribute>
+                <name>Uzbekistan</name>
                 <weighting>4</weighting>
             </value>
         </entry>
@@ -157,7 +157,7 @@
             <key>UY</key>
             <value>
                 <isoCode>UY</isoCode>
-                <playerAttribute>Uruguay</playerAttribute>
+                <name>Uruguay</name>
                 <weighting>10</weighting>
             </value>
         </entry>
@@ -165,7 +165,7 @@
             <key>DK</key>
             <value>
                 <isoCode>DK</isoCode>
-                <playerAttribute>Denmark</playerAttribute>
+                <name>Denmark</name>
                 <weighting>20</weighting>
             </value>
         </entry>
@@ -173,7 +173,7 @@
             <key>MA</key>
             <value>
                 <isoCode>MA</isoCode>
-                <playerAttribute>Morocco</playerAttribute>
+                <name>Morocco</name>
                 <weighting>8</weighting>
             </value>
         </entry>
@@ -181,7 +181,7 @@
             <key>MX</key>
             <value>
                 <isoCode>MX</isoCode>
-                <playerAttribute>Mexico</playerAttribute>
+                <name>Mexico</name>
                 <weighting>18</weighting>
             </value>
         </entry>
@@ -189,7 +189,7 @@
             <key>US</key>
             <value>
                 <isoCode>US</isoCode>
-                <playerAttribute>U.S.A.</playerAttribute>
+                <name>U.S.A.</name>
                 <weighting>17</weighting>
             </value>
         </entry>
@@ -197,7 +197,7 @@
             <key>MW</key>
             <value>
                 <isoCode>MW</isoCode>
-                <playerAttribute>Malawi</playerAttribute>
+                <name>Malawi</name>
                 <weighting>4</weighting>
             </value>
         </entry>
@@ -205,7 +205,7 @@
             <key>GB-SCT</key>
             <value>
                 <isoCode>GB-SCT</isoCode>
-                <playerAttribute>Scotland</playerAttribute>
+                <name>Scotland</name>
                 <weighting>146</weighting>
             </value>
         </entry>
@@ -213,7 +213,7 @@
             <key>MZ</key>
             <value>
                 <isoCode>MZ</isoCode>
-                <playerAttribute>Mozambique</playerAttribute>
+                <name>Mozambique</name>
                 <weighting>4</weighting>
             </value>
         </entry>
@@ -221,7 +221,7 @@
             <key>MR</key>
             <value>
                 <isoCode>MR</isoCode>
-                <playerAttribute>Mauritania</playerAttribute>
+                <name>Mauritania</name>
                 <weighting>3</weighting>
             </value>
         </entry>
@@ -229,7 +229,7 @@
             <key>MT</key>
             <value>
                 <isoCode>MT</isoCode>
-                <playerAttribute>Malta</playerAttribute>
+                <name>Malta</name>
                 <weighting>1</weighting>
             </value>
         </entry>
@@ -237,7 +237,7 @@
             <key>UG</key>
             <value>
                 <isoCode>UG</isoCode>
-                <playerAttribute>Uganda</playerAttribute>
+                <name>Uganda</name>
                 <weighting>2</weighting>
             </value>
         </entry>
@@ -245,7 +245,7 @@
             <key>MS</key>
             <value>
                 <isoCode>MS</isoCode>
-                <playerAttribute>Montserrat</playerAttribute>
+                <name>Montserrat</name>
                 <weighting>3</weighting>
             </value>
         </entry>
@@ -253,7 +253,7 @@
             <key>UA</key>
             <value>
                 <isoCode>UA</isoCode>
-                <playerAttribute>Ukraine</playerAttribute>
+                <name>Ukraine</name>
                 <weighting>13</weighting>
             </value>
         </entry>
@@ -261,7 +261,7 @@
             <key>NG</key>
             <value>
                 <isoCode>NG</isoCode>
-                <playerAttribute>Nigeria</playerAttribute>
+                <name>Nigeria</name>
                 <weighting>23</weighting>
             </value>
         </entry>
@@ -269,7 +269,7 @@
             <key>NI</key>
             <value>
                 <isoCode>NI</isoCode>
-                <playerAttribute>Nicaragua</playerAttribute>
+                <name>Nicaragua</name>
                 <weighting>2</weighting>
             </value>
         </entry>
@@ -277,7 +277,7 @@
             <key>ET</key>
             <value>
                 <isoCode>ET</isoCode>
-                <playerAttribute>Ethiopia</playerAttribute>
+                <name>Ethiopia</name>
                 <weighting>4</weighting>
             </value>
         </entry>
@@ -285,7 +285,7 @@
             <key>ES</key>
             <value>
                 <isoCode>ES</isoCode>
-                <playerAttribute>Spain</playerAttribute>
+                <name>Spain</name>
                 <weighting>127</weighting>
             </value>
         </entry>
@@ -293,7 +293,7 @@
             <key>NL</key>
             <value>
                 <isoCode>NL</isoCode>
-                <playerAttribute>Holland</playerAttribute>
+                <name>Holland</name>
                 <weighting>59</weighting>
             </value>
         </entry>
@@ -301,7 +301,7 @@
             <key>EG</key>
             <value>
                 <isoCode>EG</isoCode>
-                <playerAttribute>Egypt</playerAttribute>
+                <name>Egypt</name>
                 <weighting>3</weighting>
             </value>
         </entry>
@@ -309,7 +309,7 @@
             <key>TZ</key>
             <value>
                 <isoCode>TZ</isoCode>
-                <playerAttribute>Tanzania</playerAttribute>
+                <name>Tanzania</name>
                 <weighting>3</weighting>
             </value>
         </entry>
@@ -317,7 +317,7 @@
             <key>EE</key>
             <value>
                 <isoCode>EE</isoCode>
-                <playerAttribute>Estonia</playerAttribute>
+                <name>Estonia</name>
                 <weighting>10</weighting>
             </value>
         </entry>
@@ -325,7 +325,7 @@
             <key>TT</key>
             <value>
                 <isoCode>TT</isoCode>
-                <playerAttribute>Trinidad &amp; Tobago</playerAttribute>
+                <name>Trinidad &amp; Tobago</name>
                 <weighting>9</weighting>
             </value>
         </entry>
@@ -333,7 +333,7 @@
             <key>TV</key>
             <value>
                 <isoCode>TV</isoCode>
-                <playerAttribute>Tuvalu</playerAttribute>
+                <name>Tuvalu</name>
                 <weighting>1</weighting>
             </value>
         </entry>
@@ -341,7 +341,7 @@
             <key>GD</key>
             <value>
                 <isoCode>GD</isoCode>
-                <playerAttribute>Grenada</playerAttribute>
+                <name>Grenada</name>
                 <weighting>4</weighting>
             </value>
         </entry>
@@ -349,7 +349,7 @@
             <key>GE</key>
             <value>
                 <isoCode>GE</isoCode>
-                <playerAttribute>Georgia</playerAttribute>
+                <name>Georgia</name>
                 <weighting>3</weighting>
             </value>
         </entry>
@@ -357,7 +357,7 @@
             <key>NZ</key>
             <value>
                 <isoCode>NZ</isoCode>
-                <playerAttribute>New Zealand</playerAttribute>
+                <name>New Zealand</name>
                 <weighting>4</weighting>
             </value>
         </entry>
@@ -365,7 +365,7 @@
             <key>GA</key>
             <value>
                 <isoCode>GA</isoCode>
-                <playerAttribute>Gabon</playerAttribute>
+                <name>Gabon</name>
                 <weighting>3</weighting>
             </value>
         </entry>
@@ -373,7 +373,7 @@
             <key>NO</key>
             <value>
                 <isoCode>NO</isoCode>
-                <playerAttribute>Norway</playerAttribute>
+                <name>Norway</name>
                 <weighting>19</weighting>
             </value>
         </entry>
@@ -381,7 +381,7 @@
             <key>OM</key>
             <value>
                 <isoCode>OM</isoCode>
-                <playerAttribute>Oman</playerAttribute>
+                <name>Oman</name>
                 <weighting>3</weighting>
             </value>
         </entry>
@@ -389,7 +389,7 @@
             <key>FR</key>
             <value>
                 <isoCode>FR</isoCode>
-                <playerAttribute>France</playerAttribute>
+                <name>France</name>
                 <weighting>99</weighting>
             </value>
         </entry>
@@ -397,7 +397,7 @@
             <key>FO</key>
             <value>
                 <isoCode>FO</isoCode>
-                <playerAttribute>Faroe Islands</playerAttribute>
+                <name>Faroe Islands</name>
                 <weighting>5</weighting>
             </value>
         </entry>
@@ -405,7 +405,7 @@
             <key>FI</key>
             <value>
                 <isoCode>FI</isoCode>
-                <playerAttribute>Finland</playerAttribute>
+                <name>Finland</name>
                 <weighting>23</weighting>
             </value>
         </entry>
@@ -413,7 +413,7 @@
             <key>GY</key>
             <value>
                 <isoCode>GY</isoCode>
-                <playerAttribute>Guyana</playerAttribute>
+                <name>Guyana</name>
                 <weighting>5</weighting>
             </value>
         </entry>
@@ -421,7 +421,7 @@
             <key>PL</key>
             <value>
                 <isoCode>PL</isoCode>
-                <playerAttribute>Poland</playerAttribute>
+                <name>Poland</name>
                 <weighting>11</weighting>
             </value>
         </entry>
@@ -429,7 +429,7 @@
             <key>GR</key>
             <value>
                 <isoCode>GR</isoCode>
-                <playerAttribute>Greece</playerAttribute>
+                <name>Greece</name>
                 <weighting>10</weighting>
             </value>
         </entry>
@@ -437,7 +437,7 @@
             <key>PH</key>
             <value>
                 <isoCode>PH</isoCode>
-                <playerAttribute>Philippines</playerAttribute>
+                <name>Philippines</name>
                 <weighting>5</weighting>
             </value>
         </entry>
@@ -445,7 +445,7 @@
             <key>GQ</key>
             <value>
                 <isoCode>GQ</isoCode>
-                <playerAttribute>Equatorial Guinea</playerAttribute>
+                <name>Equatorial Guinea</name>
                 <weighting>1</weighting>
             </value>
         </entry>
@@ -453,7 +453,7 @@
             <key>PK</key>
             <value>
                 <isoCode>PK</isoCode>
-                <playerAttribute>Pakistan</playerAttribute>
+                <name>Pakistan</name>
                 <weighting>3</weighting>
             </value>
         </entry>
@@ -461,7 +461,7 @@
             <key>GN</key>
             <value>
                 <isoCode>GN</isoCode>
-                <playerAttribute>Guinea</playerAttribute>
+                <name>Guinea</name>
                 <weighting>6</weighting>
             </value>
         </entry>
@@ -469,7 +469,7 @@
             <key>PE</key>
             <value>
                 <isoCode>PE</isoCode>
-                <playerAttribute>Peru</playerAttribute>
+                <name>Peru</name>
                 <weighting>6</weighting>
             </value>
         </entry>
@@ -477,7 +477,7 @@
             <key>GM</key>
             <value>
                 <isoCode>GM</isoCode>
-                <playerAttribute>Gambia</playerAttribute>
+                <name>Gambia</name>
                 <weighting>4</weighting>
             </value>
         </entry>
@@ -485,7 +485,7 @@
             <key>GB-WLS</key>
             <value>
                 <isoCode>GB-WLS</isoCode>
-                <playerAttribute>Wales</playerAttribute>
+                <name>Wales</name>
                 <weighting>189</weighting>
             </value>
         </entry>
@@ -493,7 +493,7 @@
             <key>GH</key>
             <value>
                 <isoCode>GH</isoCode>
-                <playerAttribute>Ghana</playerAttribute>
+                <name>Ghana</name>
                 <weighting>13</weighting>
             </value>
         </entry>
@@ -501,7 +501,7 @@
             <key>ZA</key>
             <value>
                 <isoCode>ZA</isoCode>
-                <playerAttribute>South Africa</playerAttribute>
+                <name>South Africa</name>
                 <weighting>6</weighting>
             </value>
         </entry>
@@ -509,7 +509,7 @@
             <key>HN</key>
             <value>
                 <isoCode>HN</isoCode>
-                <playerAttribute>Honduras</playerAttribute>
+                <name>Honduras</name>
                 <weighting>5</weighting>
             </value>
         </entry>
@@ -517,7 +517,7 @@
             <key>HR</key>
             <value>
                 <isoCode>HR</isoCode>
-                <playerAttribute>Croatia</playerAttribute>
+                <name>Croatia</name>
                 <weighting>10</weighting>
             </value>
         </entry>
@@ -525,7 +525,7 @@
             <key>RO</key>
             <value>
                 <isoCode>RO</isoCode>
-                <playerAttribute>Romania</playerAttribute>
+                <name>Romania</name>
                 <weighting>17</weighting>
             </value>
         </entry>
@@ -533,7 +533,7 @@
             <key>HU</key>
             <value>
                 <isoCode>HU</isoCode>
-                <playerAttribute>Hungary</playerAttribute>
+                <name>Hungary</name>
                 <weighting>10</weighting>
             </value>
         </entry>
@@ -541,7 +541,7 @@
             <key>ZM</key>
             <value>
                 <isoCode>ZM</isoCode>
-                <playerAttribute>Zambia</playerAttribute>
+                <name>Zambia</name>
                 <weighting>3</weighting>
             </value>
         </entry>
@@ -549,7 +549,7 @@
             <key>ZW</key>
             <value>
                 <isoCode>ZW</isoCode>
-                <playerAttribute>Zimbabwe</playerAttribute>
+                <name>Zimbabwe</name>
                 <weighting>3</weighting>
             </value>
         </entry>
@@ -557,7 +557,7 @@
             <key>IE</key>
             <value>
                 <isoCode>IE</isoCode>
-                <playerAttribute>Ireland</playerAttribute>
+                <name>Ireland</name>
                 <weighting>253</weighting>
             </value>
         </entry>
@@ -565,7 +565,7 @@
             <key>AT</key>
             <value>
                 <isoCode>AT</isoCode>
-                <playerAttribute>Austria</playerAttribute>
+                <name>Austria</name>
                 <weighting>11</weighting>
             </value>
         </entry>
@@ -573,7 +573,7 @@
             <key>AR</key>
             <value>
                 <isoCode>AR</isoCode>
-                <playerAttribute>Argentina</playerAttribute>
+                <name>Argentina</name>
                 <weighting>395</weighting>
             </value>
         </entry>
@@ -581,7 +581,7 @@
             <key>IL</key>
             <value>
                 <isoCode>IL</isoCode>
-                <playerAttribute>Israel</playerAttribute>
+                <name>Israel</name>
                 <weighting>5</weighting>
             </value>
         </entry>
@@ -589,7 +589,7 @@
             <key>QA</key>
             <value>
                 <isoCode>QA</isoCode>
-                <playerAttribute>Qatar</playerAttribute>
+                <name>Qatar</name>
                 <weighting>2</weighting>
             </value>
         </entry>
@@ -597,7 +597,7 @@
             <key>AU</key>
             <value>
                 <isoCode>AU</isoCode>
-                <playerAttribute>Australia</playerAttribute>
+                <name>Australia</name>
                 <weighting>21</weighting>
             </value>
         </entry>
@@ -605,7 +605,7 @@
             <key>IQ</key>
             <value>
                 <isoCode>IQ</isoCode>
-                <playerAttribute>Iraq</playerAttribute>
+                <name>Iraq</name>
                 <weighting>2</weighting>
             </value>
         </entry>
@@ -613,7 +613,7 @@
             <key>IR</key>
             <value>
                 <isoCode>IR</isoCode>
-                <playerAttribute>Iran</playerAttribute>
+                <name>Iran</name>
                 <weighting>5</weighting>
             </value>
         </entry>
@@ -621,7 +621,7 @@
             <key>YE</key>
             <value>
                 <isoCode>YE</isoCode>
-                <playerAttribute>Yemen</playerAttribute>
+                <name>Yemen</name>
                 <weighting>1</weighting>
             </value>
         </entry>
@@ -629,7 +629,7 @@
             <key>AZ</key>
             <value>
                 <isoCode>AZ</isoCode>
-                <playerAttribute>Azerbaijan</playerAttribute>
+                <name>Azerbaijan</name>
                 <weighting>1</weighting>
             </value>
         </entry>
@@ -637,7 +637,7 @@
             <key>IS</key>
             <value>
                 <isoCode>IS</isoCode>
-                <playerAttribute>Iceland</playerAttribute>
+                <name>Iceland</name>
                 <weighting>12</weighting>
             </value>
         </entry>
@@ -645,7 +645,7 @@
             <key>IT</key>
             <value>
                 <isoCode>IT</isoCode>
-                <playerAttribute>Italy</playerAttribute>
+                <name>Italy</name>
                 <weighting>94</weighting>
             </value>
         </entry>
@@ -653,7 +653,7 @@
             <key>PT</key>
             <value>
                 <isoCode>PT</isoCode>
-                <playerAttribute>Portugal</playerAttribute>
+                <name>Portugal</name>
                 <weighting>35</weighting>
             </value>
         </entry>
@@ -661,7 +661,7 @@
             <key>AD</key>
             <value>
                 <isoCode>AD</isoCode>
-                <playerAttribute>Andorra</playerAttribute>
+                <name>Andorra</name>
                 <weighting>1</weighting>
             </value>
         </entry>
@@ -669,7 +669,7 @@
             <key>AG</key>
             <value>
                 <isoCode>AG</isoCode>
-                <playerAttribute>Antigua &amp; Barbuda</playerAttribute>
+                <name>Antigua &amp; Barbuda</name>
                 <weighting>4</weighting>
             </value>
         </entry>
@@ -677,7 +677,7 @@
             <key>PR</key>
             <value>
                 <isoCode>PR</isoCode>
-                <playerAttribute>Puerto Rico</playerAttribute>
+                <name>Puerto Rico</name>
                 <weighting>1</weighting>
             </value>
         </entry>
@@ -685,7 +685,7 @@
             <key>AE</key>
             <value>
                 <isoCode>AE</isoCode>
-                <playerAttribute>U.A.E.</playerAttribute>
+                <name>U.A.E.</name>
                 <weighting>3</weighting>
             </value>
         </entry>
@@ -693,7 +693,7 @@
             <key>PS</key>
             <value>
                 <isoCode>PS</isoCode>
-                <playerAttribute>Palestine</playerAttribute>
+                <name>Palestine</name>
                 <weighting>1</weighting>
             </value>
         </entry>
@@ -701,7 +701,7 @@
             <key>AL</key>
             <value>
                 <isoCode>AL</isoCode>
-                <playerAttribute>Albania</playerAttribute>
+                <name>Albania</name>
                 <weighting>2</weighting>
             </value>
         </entry>
@@ -709,7 +709,7 @@
             <key>AI</key>
             <value>
                 <isoCode>AI</isoCode>
-                <playerAttribute>Anguilla</playerAttribute>
+                <name>Anguilla</name>
                 <weighting>2</weighting>
             </value>
         </entry>
@@ -717,7 +717,7 @@
             <key>AO</key>
             <value>
                 <isoCode>AO</isoCode>
-                <playerAttribute>Angola</playerAttribute>
+                <name>Angola</name>
                 <weighting>6</weighting>
             </value>
         </entry>
@@ -725,7 +725,7 @@
             <key>PY</key>
             <value>
                 <isoCode>PY</isoCode>
-                <playerAttribute>Paraguay</playerAttribute>
+                <name>Paraguay</name>
                 <weighting>7</weighting>
             </value>
         </entry>
@@ -733,7 +733,7 @@
             <key>AM</key>
             <value>
                 <isoCode>AM</isoCode>
-                <playerAttribute>Armenia</playerAttribute>
+                <name>Armenia</name>
                 <weighting>1</weighting>
             </value>
         </entry>
@@ -741,7 +741,7 @@
             <key>AN</key>
             <value>
                 <isoCode>AN</isoCode>
-                <playerAttribute>Netherlands Antilles</playerAttribute>
+                <name>Netherlands Antilles</name>
                 <weighting>3</weighting>
             </value>
         </entry>
@@ -749,7 +749,7 @@
             <key>JP</key>
             <value>
                 <isoCode>JP</isoCode>
-                <playerAttribute>Japan</playerAttribute>
+                <name>Japan</name>
                 <weighting>2</weighting>
             </value>
         </entry>
@@ -757,7 +757,7 @@
             <key>TG</key>
             <value>
                 <isoCode>TG</isoCode>
-                <playerAttribute>Togo</playerAttribute>
+                <name>Togo</name>
                 <weighting>3</weighting>
             </value>
         </entry>
@@ -765,7 +765,7 @@
             <key>BY</key>
             <value>
                 <isoCode>BY</isoCode>
-                <playerAttribute>Belarus</playerAttribute>
+                <name>Belarus</name>
                 <weighting>2</weighting>
             </value>
         </entry>
@@ -773,7 +773,7 @@
             <key>JO</key>
             <value>
                 <isoCode>JO</isoCode>
-                <playerAttribute>Jordan</playerAttribute>
+                <name>Jordan</name>
                 <weighting>2</weighting>
             </value>
         </entry>
@@ -781,7 +781,7 @@
             <key>BS</key>
             <value>
                 <isoCode>BS</isoCode>
-                <playerAttribute>Bahamas</playerAttribute>
+                <name>Bahamas</name>
                 <weighting>2</weighting>
             </value>
         </entry>
@@ -789,7 +789,7 @@
             <key>JM</key>
             <value>
                 <isoCode>JM</isoCode>
-                <playerAttribute>Jamaica</playerAttribute>
+                <name>Jamaica</name>
                 <weighting>13</weighting>
             </value>
         </entry>
@@ -797,7 +797,7 @@
             <key>BR</key>
             <value>
                 <isoCode>BR</isoCode>
-                <playerAttribute>Brazil</playerAttribute>
+                <name>Brazil</name>
                 <weighting>400</weighting>
             </value>
         </entry>
@@ -805,7 +805,7 @@
             <key>TH</key>
             <value>
                 <isoCode>TH</isoCode>
-                <playerAttribute>Thailand</playerAttribute>
+                <name>Thailand</name>
                 <weighting>2</weighting>
             </value>
         </entry>
@@ -813,7 +813,7 @@
             <key>GB-ENG</key>
             <value>
                 <isoCode>GB-ENG</isoCode>
-                <playerAttribute>England</playerAttribute>
+                <name>England</name>
                 <weighting>2370</weighting>
             </value>
         </entry>
@@ -821,7 +821,7 @@
             <key>TN</key>
             <value>
                 <isoCode>TN</isoCode>
-                <playerAttribute>Tunisia</playerAttribute>
+                <name>Tunisia</name>
                 <weighting>5</weighting>
             </value>
         </entry>
@@ -829,7 +829,7 @@
             <key>CA</key>
             <value>
                 <isoCode>CA</isoCode>
-                <playerAttribute>Canada</playerAttribute>
+                <name>Canada</name>
                 <weighting>7</weighting>
             </value>
         </entry>
@@ -837,7 +837,7 @@
             <key>TR</key>
             <value>
                 <isoCode>TR</isoCode>
-                <playerAttribute>Turkey</playerAttribute>
+                <name>Turkey</name>
                 <weighting>15</weighting>
             </value>
         </entry>
@@ -845,7 +845,7 @@
             <key>BF</key>
             <value>
                 <isoCode>BF</isoCode>
-                <playerAttribute>Burkina Faso</playerAttribute>
+                <name>Burkina Faso</name>
                 <weighting>5</weighting>
             </value>
         </entry>
@@ -853,7 +853,7 @@
             <key>SV</key>
             <value>
                 <isoCode>SV</isoCode>
-                <playerAttribute>El Salvador</playerAttribute>
+                <name>El Salvador</name>
                 <weighting>6</weighting>
             </value>
         </entry>
@@ -861,7 +861,7 @@
             <key>BG</key>
             <value>
                 <isoCode>BG</isoCode>
-                <playerAttribute>Bulgaria</playerAttribute>
+                <name>Bulgaria</name>
                 <weighting>5</weighting>
             </value>
         </entry>
@@ -869,7 +869,7 @@
             <key>BI</key>
             <value>
                 <isoCode>BI</isoCode>
-                <playerAttribute>Burundi</playerAttribute>
+                <name>Burundi</name>
                 <weighting>3</weighting>
             </value>
         </entry>
@@ -877,7 +877,7 @@
             <key>BB</key>
             <value>
                 <isoCode>BB</isoCode>
-                <playerAttribute>Barbados</playerAttribute>
+                <name>Barbados</name>
                 <weighting>8</weighting>
             </value>
         </entry>
@@ -885,7 +885,7 @@
             <key>SZ</key>
             <value>
                 <isoCode>SZ</isoCode>
-                <playerAttribute>Swaziland</playerAttribute>
+                <name>Swaziland</name>
                 <weighting>1</weighting>
             </value>
         </entry>
@@ -893,7 +893,7 @@
             <key>BD</key>
             <value>
                 <isoCode>BD</isoCode>
-                <playerAttribute>Bangladesh</playerAttribute>
+                <name>Bangladesh</name>
                 <weighting>1</weighting>
             </value>
         </entry>
@@ -901,7 +901,7 @@
             <key>BE</key>
             <value>
                 <isoCode>BE</isoCode>
-                <playerAttribute>Belgium</playerAttribute>
+                <name>Belgium</name>
                 <weighting>34</weighting>
             </value>
         </entry>
@@ -909,7 +909,7 @@
             <key>BN</key>
             <value>
                 <isoCode>BN</isoCode>
-                <playerAttribute>Bahrain</playerAttribute>
+                <name>Bahrain</name>
                 <weighting>3</weighting>
             </value>
         </entry>
@@ -917,7 +917,7 @@
             <key>BO</key>
             <value>
                 <isoCode>BO</isoCode>
-                <playerAttribute>Bolivia</playerAttribute>
+                <name>Bolivia</name>
                 <weighting>4</weighting>
             </value>
         </entry>
@@ -925,7 +925,7 @@
             <key>BJ</key>
             <value>
                 <isoCode>BJ</isoCode>
-                <playerAttribute>Benin</playerAttribute>
+                <name>Benin</name>
                 <weighting>2</weighting>
             </value>
         </entry>
@@ -933,7 +933,7 @@
             <key>KE</key>
             <value>
                 <isoCode>KE</isoCode>
-                <playerAttribute>Kenya</playerAttribute>
+                <name>Kenya</name>
                 <weighting>1</weighting>
             </value>
         </entry>
@@ -941,7 +941,7 @@
             <key>BM</key>
             <value>
                 <isoCode>BM</isoCode>
-                <playerAttribute>Bermuda</playerAttribute>
+                <name>Bermuda</name>
                 <weighting>1</weighting>
             </value>
         </entry>
@@ -949,7 +949,7 @@
             <key>SD</key>
             <value>
                 <isoCode>SD</isoCode>
-                <playerAttribute>Sudan</playerAttribute>
+                <name>Sudan</name>
                 <weighting>2</weighting>
             </value>
         </entry>
@@ -957,7 +957,7 @@
             <key>CZ</key>
             <value>
                 <isoCode>CZ</isoCode>
-                <playerAttribute>Czech Republic</playerAttribute>
+                <name>Czech Republic</name>
                 <weighting>25</weighting>
             </value>
         </entry>
@@ -965,7 +965,7 @@
             <key>SC</key>
             <value>
                 <isoCode>SC</isoCode>
-                <playerAttribute>Seychelles</playerAttribute>
+                <name>Seychelles</name>
                 <weighting>1</weighting>
             </value>
         </entry>
@@ -973,7 +973,7 @@
             <key>KP</key>
             <value>
                 <isoCode>KP</isoCode>
-                <playerAttribute>North Korea</playerAttribute>
+                <name>North Korea</name>
                 <weighting>3</weighting>
             </value>
         </entry>
@@ -981,7 +981,7 @@
             <key>CY</key>
             <value>
                 <isoCode>CY</isoCode>
-                <playerAttribute>Cyprus</playerAttribute>
+                <name>Cyprus</name>
                 <weighting>11</weighting>
             </value>
         </entry>
@@ -989,7 +989,7 @@
             <key>SE</key>
             <value>
                 <isoCode>SE</isoCode>
-                <playerAttribute>Sweden</playerAttribute>
+                <name>Sweden</name>
                 <weighting>14</weighting>
             </value>
         </entry>
@@ -997,7 +997,7 @@
             <key>KR</key>
             <value>
                 <isoCode>KR</isoCode>
-                <playerAttribute>South Korea</playerAttribute>
+                <name>South Korea</name>
                 <weighting>4</weighting>
             </value>
         </entry>
@@ -1005,7 +1005,7 @@
             <key>CU</key>
             <value>
                 <isoCode>CU</isoCode>
-                <playerAttribute>Cuba</playerAttribute>
+                <name>Cuba</name>
                 <weighting>4</weighting>
             </value>
         </entry>
@@ -1013,7 +1013,7 @@
             <key>SI</key>
             <value>
                 <isoCode>SI</isoCode>
-                <playerAttribute>Slovenia</playerAttribute>
+                <name>Slovenia</name>
                 <weighting>14</weighting>
             </value>
         </entry>
@@ -1021,7 +1021,7 @@
             <key>KN</key>
             <value>
                 <isoCode>KN</isoCode>
-                <playerAttribute>St Kitts &amp; Nevis</playerAttribute>
+                <name>St Kitts &amp; Nevis</name>
                 <weighting>5</weighting>
             </value>
         </entry>
@@ -1029,7 +1029,7 @@
             <key>KW</key>
             <value>
                 <isoCode>KW</isoCode>
-                <playerAttribute>Kuwait</playerAttribute>
+                <name>Kuwait</name>
                 <weighting>1</weighting>
             </value>
         </entry>
@@ -1037,7 +1037,7 @@
             <key>SL</key>
             <value>
                 <isoCode>SL</isoCode>
-                <playerAttribute>Sierra Leone</playerAttribute>
+                <name>Sierra Leone</name>
                 <weighting>6</weighting>
             </value>
         </entry>
@@ -1045,7 +1045,7 @@
             <key>SK</key>
             <value>
                 <isoCode>SK</isoCode>
-                <playerAttribute>Slovakia</playerAttribute>
+                <name>Slovakia</name>
                 <weighting>17</weighting>
             </value>
         </entry>
@@ -1053,7 +1053,7 @@
             <key>KY</key>
             <value>
                 <isoCode>KY</isoCode>
-                <playerAttribute>Cayman Islands</playerAttribute>
+                <name>Cayman Islands</name>
                 <weighting>2</weighting>
             </value>
         </entry>
@@ -1061,7 +1061,7 @@
             <key>SN</key>
             <value>
                 <isoCode>SN</isoCode>
-                <playerAttribute>Senegal</playerAttribute>
+                <name>Senegal</name>
                 <weighting>12</weighting>
             </value>
         </entry>
@@ -1069,7 +1069,7 @@
             <key>KZ</key>
             <value>
                 <isoCode>KZ</isoCode>
-                <playerAttribute>Kazakhstan</playerAttribute>
+                <name>Kazakhstan</name>
                 <weighting>1</weighting>
             </value>
         </entry>
@@ -1077,7 +1077,7 @@
             <key>SR</key>
             <value>
                 <isoCode>SR</isoCode>
-                <playerAttribute>Surinam</playerAttribute>
+                <name>Surinam</name>
                 <weighting>5</weighting>
             </value>
         </entry>
@@ -1085,7 +1085,7 @@
             <key>GB-NIR</key>
             <value>
                 <isoCode>GB-NIR</isoCode>
-                <playerAttribute>N.Ireland</playerAttribute>
+                <name>N.Ireland</name>
                 <weighting>103</weighting>
             </value>
         </entry>
@@ -1093,7 +1093,7 @@
             <key>CI</key>
             <value>
                 <isoCode>CI</isoCode>
-                <playerAttribute>Ivory Coast</playerAttribute>
+                <name>Ivory Coast</name>
                 <weighting>13</weighting>
             </value>
         </entry>
@@ -1101,7 +1101,7 @@
             <key>RS</key>
             <value>
                 <isoCode>RS</isoCode>
-                <playerAttribute>Serbia</playerAttribute>
+                <name>Serbia</name>
                 <weighting>6</weighting>
             </value>
         </entry>
@@ -1109,7 +1109,7 @@
             <key>LC</key>
             <value>
                 <isoCode>LC</isoCode>
-                <playerAttribute>St Lucia</playerAttribute>
+                <name>St Lucia</name>
                 <weighting>2</weighting>
             </value>
         </entry>
@@ -1117,7 +1117,7 @@
             <key>CG</key>
             <value>
                 <isoCode>CG</isoCode>
-                <playerAttribute>Congo</playerAttribute>
+                <name>Congo</name>
                 <weighting>5</weighting>
             </value>
         </entry>
@@ -1125,7 +1125,7 @@
             <key>LB</key>
             <value>
                 <isoCode>LB</isoCode>
-                <playerAttribute>Lebanon</playerAttribute>
+                <name>Lebanon</name>
                 <weighting>2</weighting>
             </value>
         </entry>
@@ -1133,7 +1133,7 @@
             <key>RU</key>
             <value>
                 <isoCode>RU</isoCode>
-                <playerAttribute>Russia</playerAttribute>
+                <name>Russia</name>
                 <weighting>9</weighting>
             </value>
         </entry>
@@ -1141,7 +1141,7 @@
             <key>CH</key>
             <value>
                 <isoCode>CH</isoCode>
-                <playerAttribute>Switzerland</playerAttribute>
+                <name>Switzerland</name>
                 <weighting>16</weighting>
             </value>
         </entry>
@@ -1149,7 +1149,7 @@
             <key>CD</key>
             <value>
                 <isoCode>CD</isoCode>
-                <playerAttribute>DR Congo</playerAttribute>
+                <name>DR Congo</name>
                 <weighting>12</weighting>
             </value>
         </entry>
@@ -1157,7 +1157,7 @@
             <key>LI</key>
             <value>
                 <isoCode>LI</isoCode>
-                <playerAttribute>Liechtenstein</playerAttribute>
+                <name>Liechtenstein</name>
                 <weighting>6</weighting>
             </value>
         </entry>
@@ -1165,7 +1165,7 @@
             <key>CR</key>
             <value>
                 <isoCode>CR</isoCode>
-                <playerAttribute>Costa Rica</playerAttribute>
+                <name>Costa Rica</name>
                 <weighting>2</weighting>
             </value>
         </entry>
@@ -1173,7 +1173,7 @@
             <key>CO</key>
             <value>
                 <isoCode>CO</isoCode>
-                <playerAttribute>Colombia</playerAttribute>
+                <name>Colombia</name>
                 <weighting>6</weighting>
             </value>
         </entry>
@@ -1181,7 +1181,7 @@
             <key>CM</key>
             <value>
                 <isoCode>CM</isoCode>
-                <playerAttribute>Cameroon</playerAttribute>
+                <name>Cameroon</name>
                 <weighting>17</weighting>
             </value>
         </entry>
@@ -1189,7 +1189,7 @@
             <key>CN</key>
             <value>
                 <isoCode>CN</isoCode>
-                <playerAttribute>China</playerAttribute>
+                <name>China</name>
                 <weighting>3</weighting>
             </value>
         </entry>
@@ -1197,7 +1197,7 @@
             <key>SA</key>
             <value>
                 <isoCode>SA</isoCode>
-                <playerAttribute>Saudi Arabia</playerAttribute>
+                <name>Saudi Arabia</name>
                 <weighting>1</weighting>
             </value>
         </entry>
@@ -1205,7 +1205,7 @@
             <key>SB</key>
             <value>
                 <isoCode>SB</isoCode>
-                <playerAttribute>Solomon Islands</playerAttribute>
+                <name>Solomon Islands</name>
                 <weighting>1</weighting>
             </value>
         </entry>
@@ -1213,7 +1213,7 @@
             <key>CL</key>
             <value>
                 <isoCode>CL</isoCode>
-                <playerAttribute>Chile</playerAttribute>
+                <name>Chile</name>
                 <weighting>9</weighting>
             </value>
         </entry>

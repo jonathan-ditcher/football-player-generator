@@ -9,11 +9,9 @@ import java.lang.reflect.InvocationTargetException;
 import java.util.*;
 
 /**
- * Created with IntelliJ IDEA.
- * User: Jose
+ * User: Jonathan
  * Date: 18/07/13
  * Time: 18:25
- * To change this template use File | Settings | File Templates.
  */
 public class PlayerGenerator {
 
@@ -28,6 +26,46 @@ public class PlayerGenerator {
         this.nationalities = SimpleDataCache.getInstance().getNationalities().getNationalities();
     }
 
+    public List<Player> generatePlayers(int numToGenerate ) {
+        List<Player> players = new LinkedList<>();
+
+        double maxAge = 40;
+        double minAge = 15;
+
+        double x;
+        double b;
+        BetaDistribution beta = new BetaDistribution(2, 4);
+        for (int i = 0; i < numToGenerate; i++) {
+            x = Math.random();
+            b = beta.inverseCumulativeProbability(x);
+
+            int age = Double.valueOf((b-0d)/(1d-0d) * (maxAge-minAge) + minAge).intValue();
+
+            Nationality nationality = this.getNationality();
+            Template template1 = PlayerUtils.getTemplate(SimpleDataCache.getInstance().getTemplates(), nationality);
+            Template template2 = PlayerUtils.findSecondTemplate(SimpleDataCache.getInstance().getTemplates(), template1);
+
+            double pa = PlayerGenerator.generatePotentialAbility();
+            double ia = PlayerGenerator.generateInitialAbility(pa, age);
+
+            try {
+                Player player = this.generatePlayer(template1, template2, nationality, ia, ia, pa);
+                player.setAge(age);
+                players.add(player);
+            } catch (NoSuchFieldException e) {
+                e.printStackTrace();
+            } catch (NoSuchMethodException e) {
+                e.printStackTrace();
+            } catch (InvocationTargetException e) {
+                e.printStackTrace();
+            } catch (IllegalAccessException e) {
+                e.printStackTrace();
+            }
+        }
+
+        return players;
+    }
+
     public Player generatePlayer(Template template1, Template template2, Nationality nationality, double ability, double initalAbility, double potentialAbility) throws NoSuchFieldException, NoSuchMethodException, InvocationTargetException, IllegalAccessException {
         logger.trace("template1[{}] template2[{}]", template1, template2);
         Player player = new Player(null);
@@ -35,8 +73,8 @@ public class PlayerGenerator {
 
         double pa_adjustment = Math.pow((ability / 600.0), 0.5);
 
-        Collections.sort(template1.getAttributes(), (o1, o2) -> o1.getPlayerAttribute().compareTo(o2.getPlayerAttribute()));
-        Collections.sort(template2.getAttributes(), (o1, o2) -> o1.getPlayerAttribute().compareTo(o2.getPlayerAttribute()));
+        template1.getAttributes().sort((o1, o2) -> o1.getPlayerAttribute().compareTo(o2.getPlayerAttribute()));
+        template2.getAttributes().sort((o1, o2) -> o1.getPlayerAttribute().compareTo(o2.getPlayerAttribute()));
 
         for(int i=0; i<template1.getAttributes().size(); i++){
             TemplateAttribute attribute1 = template1.getAttributes().get(i);
@@ -52,7 +90,7 @@ public class PlayerGenerator {
             PlayerAttribute attribute = attribute1.getPlayerAttribute();
             //logger.trace("attr[{}] name[{}]", attribute, attribute1.getPlayerAttribute());
 
-            player.putAttribute(attribute, Double.valueOf(newVal));
+            player.putAttribute(attribute, (double) newVal);
         }
 
         player.setPotentialAbility(potentialAbility);
@@ -62,7 +100,7 @@ public class PlayerGenerator {
         Random rand = new Random();
         BetaDistribution feetBeta = new BetaDistribution(2, 3);
 
-        int rightFoot = rand.nextInt(3627) > 1000 ? 20  : 0;
+        int rightFoot = rand.nextInt(3627) > 1000 ? 20 : 0;
         int leftFoot = rightFoot != 20 ? 20 : 0;
         if(rightFoot == 20)
             leftFoot = (int) (feetBeta.inverseCumulativeProbability(Math.random()) * 20);
@@ -84,7 +122,7 @@ public class PlayerGenerator {
         return player;
     }
 
-    public int getClosestValue(int combined_target){
+    private int getClosestValue(int combined_target){
         int start = (combined_target-1)*20;
         int end = start + 20;
 
@@ -186,11 +224,11 @@ public class PlayerGenerator {
         upperPaAgesMap.put(35, 0.9);
         upperPaAgesMap.put(36, 0.9);
 
-        Double lowerMultiplier = agesMap.get(Integer.valueOf(age));
+        Double lowerMultiplier = agesMap.get(age);
         if(lowerMultiplier == null)
             lowerMultiplier = 0.9;
 
-        Double upperMultiplier = upperPaAgesMap.get(Integer.valueOf(age));
+        Double upperMultiplier = upperPaAgesMap.get(age);
         if(upperMultiplier == null)
             upperMultiplier = 1.0;
 

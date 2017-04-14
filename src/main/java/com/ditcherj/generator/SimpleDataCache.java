@@ -10,11 +10,8 @@ import javax.xml.bind.Unmarshaller;
 import java.io.File;
 import java.io.FileFilter;
 import java.io.InputStream;
-import java.net.URL;
-import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.List;
-import java.util.Map;
 
 /**
  * Created by Jonathan Ditcher on 31/03/2017.
@@ -26,7 +23,7 @@ public class SimpleDataCache {
 
     private Nationalities nationalities = new Nationalities();
     private NationWeightings nationWeightings = new NationWeightings();
-    private List<Template> templates = new LinkedList<>();
+    private final List<Template> templates = new LinkedList<>();
 
     private SimpleDataCache() {
         this.buildAllData();
@@ -132,7 +129,7 @@ public class SimpleDataCache {
             return this.templates.stream()
                     .filter(t -> t.getPosition().equals(position) && t.getRegion().equals(region) && t.getType().equals(type))
                     .findFirst()
-                    .get();
+                    .orElse(null);
         }
     }
 }

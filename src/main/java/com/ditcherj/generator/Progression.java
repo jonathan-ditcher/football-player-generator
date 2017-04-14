@@ -27,9 +27,8 @@ public class Progression {
     }
 
     public static Player calcDayProgression(Player player, double age, double M, double C, Template template){
-        int totaldays = 28;
-
         logger.trace("" +(age % 1));
+
         if (age % 1 < 0.000000000001 || age % 1 > 0.99) {
             player.setAnnualCurrentAbility(player.getCurrentAbility());
             logger.trace("RESET: " +player.getCurrentAbility());

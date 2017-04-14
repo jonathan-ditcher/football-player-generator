@@ -6,7 +6,7 @@
             <value>
                 <adjective>Algerian</adjective>
                 <isoCode>DZ</isoCode>
-                <playerAttribute>Algeria</playerAttribute>
+                <name>Algeria</name>
                 <region>AFRICA</region>
             </value>
         </entry>
@@ -15,7 +15,7 @@
             <value>
                 <adjective>Angolan</adjective>
                 <isoCode>AO</isoCode>
-                <playerAttribute>Angola</playerAttribute>
+                <name>Angola</name>
                 <region>AFRICA</region>
             </value>
         </entry>
@@ -24,7 +24,7 @@
             <value>
                 <adjective>Beninese, Beninois</adjective>
                 <isoCode>BJ</isoCode>
-                <playerAttribute>Benin</playerAttribute>
+                <name>Benin</name>
                 <region>AFRICA</region>
             </value>
         </entry>
@@ -33,7 +33,7 @@
             <value>
                 <adjective>Botswanan</adjective>
                 <isoCode>BW</isoCode>
-                <playerAttribute>Botswana</playerAttribute>
+                <name>Botswana</name>
                 <region>AFRICA</region>
             </value>
         </entry>
@@ -42,7 +42,7 @@
             <value>
                 <adjective>Burkinabé</adjective>
                 <isoCode>BF</isoCode>
-                <playerAttribute>Burkina Faso</playerAttribute>
+                <name>Burkina Faso</name>
                 <region>AFRICA</region>
             </value>
         </entry>
@@ -51,7 +51,7 @@
             <value>
                 <adjective>Burundian</adjective>
                 <isoCode>BI</isoCode>
-                <playerAttribute>Burundi</playerAttribute>
+                <name>Burundi</name>
                 <region>AFRICA</region>
             </value>
         </entry>
@@ -60,7 +60,7 @@
             <value>
                 <adjective>Cameroonian</adjective>
                 <isoCode>CM</isoCode>
-                <playerAttribute>Cameroon</playerAttribute>
+                <name>Cameroon</name>
                 <region>AFRICA</region>
             </value>
         </entry>
@@ -69,7 +69,7 @@
             <value>
                 <adjective>Cape Verdean</adjective>
                 <isoCode>CV</isoCode>
-                <playerAttribute>Cape Verde Islands</playerAttribute>
+                <name>Cape Verde Islands</name>
                 <region>AFRICA</region>
             </value>
         </entry>
@@ -78,7 +78,7 @@
             <value>
                 <adjective>Central African</adjective>
                 <isoCode>CF</isoCode>
-                <playerAttribute>Central African Republic</playerAttribute>
+                <name>Central African Republic</name>
                 <region>AFRICA</region>
             </value>
         </entry>
@@ -87,7 +87,7 @@
             <value>
                 <adjective>Chadian</adjective>
                 <isoCode>TD</isoCode>
-                <playerAttribute>Chad</playerAttribute>
+                <name>Chad</name>
                 <region>AFRICA</region>
             </value>
         </entry>
@@ -96,7 +96,7 @@
             <value>
                 <adjective>Comoran</adjective>
                 <isoCode>KM</isoCode>
-                <playerAttribute>Comoros Islands</playerAttribute>
+                <name>Comoros Islands</name>
                 <region>AFRICA</region>
             </value>
         </entry>
@@ -105,7 +105,7 @@
             <value>
                 <adjective>Congolese</adjective>
                 <isoCode>CG</isoCode>
-                <playerAttribute>Congo</playerAttribute>
+                <name>Congo</name>
                 <region>AFRICA</region>
             </value>
         </entry>
@@ -114,7 +114,7 @@
             <value>
                 <adjective>Congolese DR</adjective>
                 <isoCode>CD</isoCode>
-                <playerAttribute>Congo DR (Zaire)</playerAttribute>
+                <name>Congo DR (Zaire)</name>
                 <region>AFRICA</region>
             </value>
         </entry>
@@ -123,7 +123,7 @@
             <value>
                 <adjective>Ivorian</adjective>
                 <isoCode>CI</isoCode>
-                <playerAttribute>Cote d’Ivoire</playerAttribute>
+                <name>Cote d’Ivoire</name>
                 <region>AFRICA</region>
             </value>
         </entry>
@@ -132,7 +132,7 @@
             <value>
                 <adjective>Djiboutian</adjective>
                 <isoCode>DJ</isoCode>
-                <playerAttribute>Djibouti</playerAttribute>
+                <name>Djibouti</name>
                 <region>AFRICA</region>
             </value>
         </entry>
@@ -141,7 +141,7 @@
             <value>
                 <adjective>Egyptian</adjective>
                 <isoCode>EG</isoCode>
-                <playerAttribute>Egypt</playerAttribute>
+                <name>Egypt</name>
                 <region>AFRICA</region>
             </value>
         </entry>
@@ -150,7 +150,7 @@
             <value>
                 <adjective>Equatorial Guinean, Equatoguinean</adjective>
                 <isoCode>GQ</isoCode>
-                <playerAttribute>Equatorial Guinea</playerAttribute>
+                <name>Equatorial Guinea</name>
                 <region>AFRICA</region>
             </value>
         </entry>
@@ -159,7 +159,7 @@
             <value>
                 <adjective>Eritrean</adjective>
                 <isoCode>ER</isoCode>
-                <playerAttribute>Eritrea</playerAttribute>
+                <name>Eritrea</name>
                 <region>AFRICA</region>
             </value>
         </entry>
@@ -168,7 +168,7 @@
             <value>
                 <adjective>Ethiopian</adjective>
                 <isoCode>ET</isoCode>
-                <playerAttribute>Ethiopia</playerAttribute>
+                <name>Ethiopia</name>
                 <region>AFRICA</region>
             </value>
         </entry>
@@ -177,7 +177,7 @@
             <value>
                 <adjective>Gabonese</adjective>
                 <isoCode>GA</isoCode>
-                <playerAttribute>Gabon</playerAttribute>
+                <name>Gabon</name>
                 <region>AFRICA</region>
             </value>
         </entry>
@@ -186,7 +186,7 @@
             <value>
                 <adjective>Gambian</adjective>
                 <isoCode>GM</isoCode>
-                <playerAttribute>Gambia</playerAttribute>
+                <name>Gambia</name>
                 <region>AFRICA</region>
             </value>
         </entry>
@@ -195,7 +195,7 @@
             <value>
                 <adjective>Ghanaian</adjective>
                 <isoCode>GH</isoCode>
-                <playerAttribute>Ghana</playerAttribute>
+                <name>Ghana</name>
                 <region>AFRICA</region>
             </value>
         </entry>
@@ -204,7 +204,7 @@
             <value>
                 <adjective>Guinean</adjective>
                 <isoCode>GN</isoCode>
-                <playerAttribute>Guinea</playerAttribute>
+                <name>Guinea</name>
                 <region>AFRICA</region>
             </value>
         </entry>
@@ -213,7 +213,7 @@
             <value>
                 <adjective>Guinean</adjective>
                 <isoCode>GW</isoCode>
-                <playerAttribute>Guinea – Bissau</playerAttribute>
+                <name>Guinea – Bissau</name>
                 <region>AFRICA</region>
             </value>
         </entry>
@@ -222,7 +222,7 @@
             <value>
                 <adjective>Kenyan</adjective>
                 <isoCode>KE</isoCode>
-                <playerAttribute>Kenya</playerAttribute>
+                <name>Kenya</name>
                 <region>AFRICA</region>
             </value>
         </entry>
@@ -231,7 +231,7 @@
             <value>
                 <adjective>Basotho</adjective>
                 <isoCode>LS</isoCode>
-                <playerAttribute>Lesotho</playerAttribute>
+                <name>Lesotho</name>
                 <region>AFRICA</region>
             </value>
         </entry>
@@ -240,7 +240,7 @@
             <value>
                 <adjective>Liberian</adjective>
                 <isoCode>LR</isoCode>
-                <playerAttribute>Liberia</playerAttribute>
+                <name>Liberia</name>
                 <region>AFRICA</region>
             </value>
         </entry>
@@ -249,7 +249,7 @@
             <value>
                 <adjective>Libyan</adjective>
                 <isoCode>LY</isoCode>
-                <playerAttribute>Libya</playerAttribute>
+                <name>Libya</name>
                 <region>AFRICA</region>
             </value>
         </entry>
@@ -258,7 +258,7 @@
             <value>
                 <adjective>Malagasy</adjective>
                 <isoCode>MG</isoCode>
-                <playerAttribute>Madagascar</playerAttribute>
+                <name>Madagascar</name>
                 <region>AFRICA</region>
             </value>
         </entry>
@@ -267,7 +267,7 @@
             <value>
                 <adjective>Malawian</adjective>
                 <isoCode>MW</isoCode>
-                <playerAttribute>Malawi</playerAttribute>
+                <name>Malawi</name>
                 <region>AFRICA</region>
             </value>
         </entry>
@@ -276,7 +276,7 @@
             <value>
                 <adjective>Malian</adjective>
                 <isoCode>ML</isoCode>
-                <playerAttribute>Mali</playerAttribute>
+                <name>Mali</name>
                 <region>AFRICA</region>
             </value>
         </entry>
@@ -285,7 +285,7 @@
             <value>
                 <adjective>Mauritanian</adjective>
                 <isoCode>MR</isoCode>
-                <playerAttribute>Mauritania</playerAttribute>
+                <name>Mauritania</name>
                 <region>AFRICA</region>
             </value>
         </entry>
@@ -294,7 +294,7 @@
             <value>
                 <adjective>Mauritian</adjective>
                 <isoCode>MU</isoCode>
-                <playerAttribute>Mauritius</playerAttribute>
+                <name>Mauritius</name>
                 <region>AFRICA</region>
             </value>
         </entry>
@@ -303,7 +303,7 @@
             <value>
                 <adjective>Moroccan</adjective>
                 <isoCode>MA</isoCode>
-                <playerAttribute>Morocco</playerAttribute>
+                <name>Morocco</name>
                 <region>AFRICA</region>
             </value>
         </entry>
@@ -312,7 +312,7 @@
             <value>
                 <adjective>Mozambican</adjective>
                 <isoCode>MZ</isoCode>
-                <playerAttribute>Mozambique</playerAttribute>
+                <name>Mozambique</name>
                 <region>AFRICA</region>
             </value>
         </entry>
@@ -321,7 +321,7 @@
             <value>
                 <adjective>Namibian</adjective>
                 <isoCode>NA</isoCode>
-                <playerAttribute>Namibia</playerAttribute>
+                <name>Namibia</name>
                 <region>AFRICA</region>
             </value>
         </entry>
@@ -330,7 +330,7 @@
             <value>
                 <adjective>Nigerien</adjective>
                 <isoCode>NE</isoCode>
-                <playerAttribute>Niger</playerAttribute>
+                <name>Niger</name>
                 <region>AFRICA</region>
             </value>
         </entry>
@@ -339,7 +339,7 @@
             <value>
                 <adjective>Nigerian</adjective>
                 <isoCode>NG</isoCode>
-                <playerAttribute>Nigeria</playerAttribute>
+                <name>Nigeria</name>
                 <region>AFRICA</region>
             </value>
         </entry>
@@ -348,7 +348,7 @@
             <value>
                 <adjective>Rwandan</adjective>
                 <isoCode>RW</isoCode>
-                <playerAttribute>Rwanda</playerAttribute>
+                <name>Rwanda</name>
                 <region>AFRICA</region>
             </value>
         </entry>
@@ -357,7 +357,7 @@
             <value>
                 <adjective>São Toméan</adjective>
                 <isoCode>ST</isoCode>
-                <playerAttribute>Sao Tome e Principe</playerAttribute>
+                <name>Sao Tome e Principe</name>
                 <region>AFRICA</region>
             </value>
         </entry>
@@ -366,7 +366,7 @@
             <value>
                 <adjective>Senegalese</adjective>
                 <isoCode>SN</isoCode>
-                <playerAttribute>Senegal</playerAttribute>
+                <name>Senegal</name>
                 <region>AFRICA</region>
             </value>
         </entry>
@@ -375,7 +375,7 @@
             <value>
                 <adjective>Seychellois</adjective>
                 <isoCode>SC</isoCode>
-                <playerAttribute>Seychelles</playerAttribute>
+                <name>Seychelles</name>
                 <region>AFRICA</region>
             </value>
         </entry>
@@ -384,7 +384,7 @@
             <value>
                 <adjective>Sierra Leonean</adjective>
                 <isoCode>SL</isoCode>
-                <playerAttribute>Sierra Leone</playerAttribute>
+                <name>Sierra Leone</name>
                 <region>AFRICA</region>
             </value>
         </entry>
@@ -393,7 +393,7 @@
             <value>
                 <adjective>Somali</adjective>
                 <isoCode>SO</isoCode>
-                <playerAttribute>Somalia</playerAttribute>
+                <name>Somalia</name>
                 <region>AFRICA</region>
             </value>
         </entry>
@@ -402,7 +402,7 @@
             <value>
                 <adjective>South African</adjective>
                 <isoCode>ZA</isoCode>
-                <playerAttribute>South Africa</playerAttribute>
+                <name>South Africa</name>
                 <region>AFRICA</region>
             </value>
         </entry>
@@ -411,7 +411,7 @@
             <value>
                 <adjective>Sudanese</adjective>
                 <isoCode>SD</isoCode>
-                <playerAttribute>Sudan</playerAttribute>
+                <name>Sudan</name>
                 <region>AFRICA</region>
             </value>
         </entry>
@@ -420,7 +420,7 @@
             <value>
                 <adjective>Swazi</adjective>
                 <isoCode>SZ</isoCode>
-                <playerAttribute>Swaziland</playerAttribute>
+                <name>Swaziland</name>
                 <region>AFRICA</region>
             </value>
         </entry>
@@ -429,7 +429,7 @@
             <value>
                 <adjective>Tanzanian</adjective>
                 <isoCode>TZ</isoCode>
-                <playerAttribute>Tanzania</playerAttribute>
+                <name>Tanzania</name>
                 <region>AFRICA</region>
             </value>
         </entry>
@@ -438,7 +438,7 @@
             <value>
                 <adjective>Togolese</adjective>
                 <isoCode>TG</isoCode>
-                <playerAttribute>Togo</playerAttribute>
+                <name>Togo</name>
                 <region>AFRICA</region>
             </value>
         </entry>
@@ -447,7 +447,7 @@
             <value>
                 <adjective>Tunisian</adjective>
                 <isoCode>TN</isoCode>
-                <playerAttribute>Tunisia</playerAttribute>
+                <name>Tunisia</name>
                 <region>AFRICA</region>
             </value>
         </entry>
@@ -456,7 +456,7 @@
             <value>
                 <adjective>Ugandan</adjective>
                 <isoCode>UG</isoCode>
-                <playerAttribute>Uganda</playerAttribute>
+                <name>Uganda</name>
                 <region>AFRICA</region>
             </value>
         </entry>
@@ -465,7 +465,7 @@
             <value>
                 <adjective>Zambian</adjective>
                 <isoCode>ZM</isoCode>
-                <playerAttribute>Zambia</playerAttribute>
+                <name>Zambia</name>
                 <region>AFRICA</region>
             </value>
         </entry>
@@ -474,7 +474,7 @@
             <value>
                 <adjective>Zimbabwean</adjective>
                 <isoCode>ZW</isoCode>
-                <playerAttribute>Zimbabwe</playerAttribute>
+                <name>Zimbabwe</name>
                 <region>AFRICA</region>
             </value>
         </entry>
@@ -483,7 +483,7 @@
             <value>
                 <adjective>Afghan</adjective>
                 <isoCode>AF</isoCode>
-                <playerAttribute>Afghanistan</playerAttribute>
+                <name>Afghanistan</name>
                 <region>ASIA</region>
             </value>
         </entry>
@@ -492,7 +492,7 @@
             <value>
                 <adjective>Bruneian</adjective>
                 <isoCode>BN</isoCode>
-                <playerAttribute>Brunei Darussalam</playerAttribute>
+                <name>Brunei Darussalam</name>
                 <region>ASIA</region>
             </value>
         </entry>
@@ -501,7 +501,7 @@
             <value>
                 <adjective>Bangladeshi</adjective>
                 <isoCode>BD</isoCode>
-                <playerAttribute>Bangladesh</playerAttribute>
+                <name>Bangladesh</name>
                 <region>ASIA</region>
             </value>
         </entry>
@@ -510,7 +510,7 @@
             <value>
                 <adjective>Bhutanese</adjective>
                 <isoCode>BT</isoCode>
-                <playerAttribute>Bhutan</playerAttribute>
+                <name>Bhutan</name>
                 <region>ASIA</region>
             </value>
         </entry>
@@ -519,7 +519,7 @@
             <value>
                 <adjective>Cambodian</adjective>
                 <isoCode>KH</isoCode>
-                <playerAttribute>Cambodia</playerAttribute>
+                <name>Cambodia</name>
                 <region>ASIA</region>
             </value>
         </entry>
@@ -528,7 +528,7 @@
             <value>
                 <adjective>Chinese</adjective>
                 <isoCode>CN</isoCode>
-                <playerAttribute>China PR</playerAttribute>
+                <name>China PR</name>
                 <region>ASIA</region>
             </value>
         </entry>
@@ -537,7 +537,7 @@
             <value>
                 <adjective>Taiwanese</adjective>
                 <isoCode>TW</isoCode>
-                <playerAttribute>Chinese Taipei</playerAttribute>
+                <name>Chinese Taipei</name>
                 <region>ASIA</region>
             </value>
         </entry>
@@ -546,7 +546,7 @@
             <value>
                 <adjective>Timorese</adjective>
                 <isoCode>TL</isoCode>
-                <playerAttribute>East Timor</playerAttribute>
+                <name>East Timor</name>
                 <region>ASIA</region>
             </value>
         </entry>
@@ -555,7 +555,7 @@
             <value>
                 <adjective>Guamanian</adjective>
                 <isoCode>GU</isoCode>
-                <playerAttribute>Guam</playerAttribute>
+                <name>Guam</name>
                 <region>ASIA</region>
             </value>
         </entry>
@@ -564,7 +564,7 @@
             <value>
                 <adjective>Hong Kong, Hongkongese</adjective>
                 <isoCode>HK</isoCode>
-                <playerAttribute>Hong Kong</playerAttribute>
+                <name>Hong Kong</name>
                 <region>ASIA</region>
             </value>
         </entry>
@@ -573,7 +573,7 @@
             <value>
                 <adjective>Indian</adjective>
                 <isoCode>IN</isoCode>
-                <playerAttribute>India</playerAttribute>
+                <name>India</name>
                 <region>ASIA</region>
             </value>
         </entry>
@@ -582,7 +582,7 @@
             <value>
                 <adjective>Indonesian</adjective>
                 <isoCode>ID</isoCode>
-                <playerAttribute>Indonesia</playerAttribute>
+                <name>Indonesia</name>
                 <region>ASIA</region>
             </value>
         </entry>
@@ -591,7 +591,7 @@
             <value>
                 <adjective>Iranian</adjective>
                 <isoCode>IR</isoCode>
-                <playerAttribute>Iran</playerAttribute>
+                <name>Iran</name>
                 <region>ASIA</region>
             </value>
         </entry>
@@ -600,7 +600,7 @@
             <value>
                 <adjective>Iraqi</adjective>
                 <isoCode>IQ</isoCode>
-                <playerAttribute>Iraq</playerAttribute>
+                <name>Iraq</name>
                 <region>ASIA</region>
             </value>
         </entry>
@@ -609,7 +609,7 @@
             <value>
                 <adjective>Japanese</adjective>
                 <isoCode>JP</isoCode>
-                <playerAttribute>Japan</playerAttribute>
+                <name>Japan</name>
                 <region>ASIA</region>
             </value>
         </entry>
@@ -618,7 +618,7 @@
             <value>
                 <adjective>Jordanian</adjective>
                 <isoCode>JO</isoCode>
-                <playerAttribute>Jordan</playerAttribute>
+                <name>Jordan</name>
                 <region>ASIA</region>
             </value>
         </entry>
@@ -627,7 +627,7 @@
             <value>
                 <adjective>North Korean</adjective>
                 <isoCode>KP</isoCode>
-                <playerAttribute>Korea DPR</playerAttribute>
+                <name>Korea DPR</name>
                 <region>ASIA</region>
             </value>
         </entry>
@@ -636,7 +636,7 @@
             <value>
                 <adjective>South Korean</adjective>
                 <isoCode>KR</isoCode>
-                <playerAttribute>Korea Republic</playerAttribute>
+                <name>Korea Republic</name>
                 <region>ASIA</region>
             </value>
         </entry>
@@ -645,7 +645,7 @@
             <value>
                 <adjective>Kuwaiti</adjective>
                 <isoCode>KW</isoCode>
-                <playerAttribute>Kuwait</playerAttribute>
+                <name>Kuwait</name>
                 <region>ASIA</region>
             </value>
         </entry>
@@ -654,7 +654,7 @@
             <value>
                 <adjective>Kyrgyz</adjective>
                 <isoCode>KG</isoCode>
-                <playerAttribute>Kyrgyzstan</playerAttribute>
+                <name>Kyrgyzstan</name>
                 <region>ASIA</region>
             </value>
         </entry>
@@ -663,7 +663,7 @@
             <value>
                 <adjective>Laotian, Lao</adjective>
                 <isoCode>LA</isoCode>
-                <playerAttribute>Laos</playerAttribute>
+                <name>Laos</name>
                 <region>ASIA</region>
             </value>
         </entry>
@@ -672,7 +672,7 @@
             <value>
                 <adjective>Lebanese</adjective>
                 <isoCode>LB</isoCode>
-                <playerAttribute>Lebanon</playerAttribute>
+                <name>Lebanon</name>
                 <region>ASIA</region>
             </value>
         </entry>
@@ -681,7 +681,7 @@
             <value>
                 <adjective>Macanese</adjective>
                 <isoCode>MO</isoCode>
-                <playerAttribute>Macao</playerAttribute>
+                <name>Macao</name>
                 <region>ASIA</region>
             </value>
         </entry>
@@ -690,7 +690,7 @@
             <value>
                 <adjective>Malaysian</adjective>
                 <isoCode>MY</isoCode>
-                <playerAttribute>Malaysia</playerAttribute>
+                <name>Malaysia</name>
                 <region>ASIA</region>
             </value>
         </entry>
@@ -699,7 +699,7 @@
             <value>
                 <adjective>Maldivian</adjective>
                 <isoCode>MV</isoCode>
-                <playerAttribute>Maldives</playerAttribute>
+                <name>Maldives</name>
                 <region>ASIA</region>
             </value>
         </entry>
@@ -708,7 +708,7 @@
             <value>
                 <adjective>Mongolian</adjective>
                 <isoCode>MN</isoCode>
-                <playerAttribute>Mongolia</playerAttribute>
+                <name>Mongolia</name>
                 <region>ASIA</region>
             </value>
         </entry>
@@ -717,7 +717,7 @@
             <value>
                 <adjective>Burmese</adjective>
                 <isoCode>MM</isoCode>
-                <playerAttribute>Myanmar</playerAttribute>
+                <name>Myanmar</name>
                 <region>ASIA</region>
             </value>
         </entry>
@@ -726,7 +726,7 @@
             <value>
                 <adjective>Nepali</adjective>
                 <isoCode>NP</isoCode>
-                <playerAttribute>Nepal</playerAttribute>
+                <name>Nepal</name>
                 <region>ASIA</region>
             </value>
         </entry>
@@ -735,7 +735,7 @@
             <value>
                 <adjective>Omani</adjective>
                 <isoCode>OM</isoCode>
-                <playerAttribute>Oman</playerAttribute>
+                <name>Oman</name>
                 <region>ASIA</region>
             </value>
         </entry>
@@ -744,7 +744,7 @@
             <value>
                 <adjective>Pakistani</adjective>
                 <isoCode>PK</isoCode>
-                <playerAttribute>Pakistan</playerAttribute>
+                <name>Pakistan</name>
                 <region>ASIA</region>
             </value>
         </entry>
@@ -753,7 +753,7 @@
             <value>
                 <adjective>Palestinian</adjective>
                 <isoCode>PS</isoCode>
-                <playerAttribute>Palestine</playerAttribute>
+                <name>Palestine</name>
                 <region>ASIA</region>
             </value>
         </entry>
@@ -762,7 +762,7 @@
             <value>
                 <adjective>Philippine</adjective>
                 <isoCode>PH</isoCode>
-                <playerAttribute>Philippines</playerAttribute>
+                <name>Philippines</name>
                 <region>ASIA</region>
             </value>
         </entry>
@@ -771,7 +771,7 @@
             <value>
                 <adjective>Qatari</adjective>
                 <isoCode>QA</isoCode>
-                <playerAttribute>Qatar</playerAttribute>
+                <name>Qatar</name>
                 <region>ASIA</region>
             </value>
         </entry>
@@ -780,7 +780,7 @@
             <value>
                 <adjective>Saudi Arabian</adjective>
                 <isoCode>SA</isoCode>
-                <playerAttribute>Saudi Arabia</playerAttribute>
+                <name>Saudi Arabia</name>
                 <region>ASIA</region>
             </value>
         </entry>
@@ -789,7 +789,7 @@
             <value>
                 <adjective>Singapore</adjective>
                 <isoCode>SG</isoCode>
-                <playerAttribute>Singapore</playerAttribute>
+                <name>Singapore</name>
                 <region>ASIA</region>
             </value>
         </entry>
@@ -798,7 +798,7 @@
             <value>
                 <adjective>Sri Lankan</adjective>
                 <isoCode>LK</isoCode>
-                <playerAttribute>Sri Lanka</playerAttribute>
+                <name>Sri Lanka</name>
                 <region>ASIA</region>
             </value>
         </entry>
@@ -807,7 +807,7 @@
             <value>
                 <adjective>Syrian</adjective>
                 <isoCode>SY</isoCode>
-                <playerAttribute>Syria</playerAttribute>
+                <name>Syria</name>
                 <region>ASIA</region>
             </value>
         </entry>
@@ -816,7 +816,7 @@
             <value>
                 <adjective>Tajikistani</adjective>
                 <isoCode>TJ</isoCode>
-                <playerAttribute>Tajikistan</playerAttribute>
+                <name>Tajikistan</name>
                 <region>ASIA</region>
             </value>
         </entry>
@@ -825,7 +825,7 @@
             <value>
                 <adjective>Thai</adjective>
                 <isoCode>TH</isoCode>
-                <playerAttribute>Thailand</playerAttribute>
+                <name>Thailand</name>
                 <region>ASIA</region>
             </value>
         </entry>
@@ -834,7 +834,7 @@
             <value>
                 <adjective>Turkmen</adjective>
                 <isoCode>TM</isoCode>
-                <playerAttribute>Turkmenistan</playerAttribute>
+                <name>Turkmenistan</name>
                 <region>ASIA</region>
             </value>
         </entry>
@@ -843,7 +843,7 @@
             <value>
                 <adjective>Emirati, Emirian</adjective>
                 <isoCode>AE</isoCode>
-                <playerAttribute>United Arab Emirates</playerAttribute>
+                <name>United Arab Emirates</name>
                 <region>ASIA</region>
             </value>
         </entry>
@@ -852,7 +852,7 @@
             <value>
                 <adjective>Uzbekistani, Uzbek</adjective>
                 <isoCode>UZ</isoCode>
-                <playerAttribute>Uzbekistan</playerAttribute>
+                <name>Uzbekistan</name>
                 <region>ASIA</region>
             </value>
         </entry>
@@ -861,7 +861,7 @@
             <value>
                 <adjective>Vietnamese</adjective>
                 <isoCode>VN</isoCode>
-                <playerAttribute>Vietnam </playerAttribute>
+                <name>Vietnam </name>
                 <region>ASIA</region>
             </value>
         </entry>
@@ -870,7 +870,7 @@
             <value>
                 <adjective>Yemeni</adjective>
                 <isoCode>YE</isoCode>
-                <playerAttribute>Yemen</playerAttribute>
+                <name>Yemen</name>
                 <region>ASIA</region>
             </value>
         </entry>
@@ -879,7 +879,7 @@
             <value>
                 <adjective>Albanian</adjective>
                 <isoCode>AL</isoCode>
-                <playerAttribute>Albania</playerAttribute>
+                <name>Albania</name>
                 <region>UEFA</region>
             </value>
         </entry>
@@ -888,7 +888,7 @@
             <value>
                 <adjective>Andorran</adjective>
                 <isoCode>AD</isoCode>
-                <playerAttribute>Andorra</playerAttribute>
+                <name>Andorra</name>
                 <region>UEFA</region>
             </value>
         </entry>
@@ -897,7 +897,7 @@
             <value>
                 <adjective>Armenian</adjective>
                 <isoCode>AM</isoCode>
-                <playerAttribute>Armenia</playerAttribute>
+                <name>Armenia</name>
                 <region>UEFA</region>
             </value>
         </entry>
@@ -906,7 +906,7 @@
             <value>
                 <adjective>Austrian</adjective>
                 <isoCode>AT</isoCode>
-                <playerAttribute>Austria</playerAttribute>
+                <name>Austria</name>
                 <region>UEFA</region>
             </value>
         </entry>
@@ -915,7 +915,7 @@
             <value>
                 <adjective>Azerbaijani, Azeri</adjective>
                 <isoCode>AZ</isoCode>
-                <playerAttribute>Azerbaijan</playerAttribute>
+                <name>Azerbaijan</name>
                 <region>UEFA</region>
             </value>
         </entry>
@@ -924,7 +924,7 @@
             <value>
                 <adjective>Belarusian</adjective>
                 <isoCode>BY</isoCode>
-                <playerAttribute>Belarus</playerAttribute>
+                <name>Belarus</name>
                 <region>UEFA</region>
             </value>
         </entry>
@@ -933,7 +933,7 @@
             <value>
                 <adjective>Belgian</adjective>
                 <isoCode>BE</isoCode>
-                <playerAttribute>Belgium</playerAttribute>
+                <name>Belgium</name>
                 <region>UEFA</region>
             </value>
         </entry>
@@ -942,7 +942,7 @@
             <value>
                 <adjective>Bosnian</adjective>
                 <isoCode>BA</isoCode>
-                <playerAttribute>Bosnia Herzegovina</playerAttribute>
+                <name>Bosnia Herzegovina</name>
                 <region>UEFA</region>
             </value>
         </entry>
@@ -951,7 +951,7 @@
             <value>
                 <adjective>Bulgarian</adjective>
                 <isoCode>BG</isoCode>
-                <playerAttribute>Bulgaria</playerAttribute>
+                <name>Bulgaria</name>
                 <region>UEFA</region>
             </value>
         </entry>
@@ -960,7 +960,7 @@
             <value>
                 <adjective>Croatian</adjective>
                 <isoCode>HR</isoCode>
-                <playerAttribute>Croatia</playerAttribute>
+                <name>Croatia</name>
                 <region>UEFA</region>
             </value>
         </entry>
@@ -969,7 +969,7 @@
             <value>
                 <adjective>Cypriot</adjective>
                 <isoCode>CY</isoCode>
-                <playerAttribute>Cyprus</playerAttribute>
+                <name>Cyprus</name>
                 <region>UEFA</region>
             </value>
         </entry>
@@ -978,7 +978,7 @@
             <value>
                 <adjective>Czech</adjective>
                 <isoCode>CZ</isoCode>
-                <playerAttribute>Czech Republic</playerAttribute>
+                <name>Czech Republic</name>
                 <region>UEFA</region>
             </value>
         </entry>
@@ -987,7 +987,7 @@
             <value>
                 <adjective>Danish</adjective>
                 <isoCode>DK</isoCode>
-                <playerAttribute>Denmark</playerAttribute>
+                <name>Denmark</name>
                 <region>UEFA</region>
             </value>
         </entry>
@@ -996,7 +996,7 @@
             <value>
                 <adjective>English</adjective>
                 <isoCode>GB-ENG</isoCode>
-                <playerAttribute>England</playerAttribute>
+                <name>England</name>
                 <region>UEFA</region>
             </value>
         </entry>
@@ -1005,7 +1005,7 @@
             <value>
                 <adjective>Estonian</adjective>
                 <isoCode>EE</isoCode>
-                <playerAttribute>Estonia</playerAttribute>
+                <name>Estonia</name>
                 <region>UEFA</region>
             </value>
         </entry>
@@ -1014,7 +1014,7 @@
             <value>
                 <adjective>Faroese</adjective>
                 <isoCode>FO</isoCode>
-                <playerAttribute>Faeroe Islands</playerAttribute>
+                <name>Faeroe Islands</name>
                 <region>UEFA</region>
             </value>
         </entry>
@@ -1023,7 +1023,7 @@
             <value>
                 <adjective>Finnish</adjective>
                 <isoCode>FI</isoCode>
-                <playerAttribute>Finland</playerAttribute>
+                <name>Finland</name>
                 <region>UEFA</region>
             </value>
         </entry>
@@ -1032,7 +1032,7 @@
             <value>
                 <adjective>French</adjective>
                 <isoCode>FR</isoCode>
-                <playerAttribute>France</playerAttribute>
+                <name>France</name>
                 <region>UEFA</region>
             </value>
         </entry>
@@ -1041,7 +1041,7 @@
             <value>
                 <adjective>Georgian</adjective>
                 <isoCode>GE</isoCode>
-                <playerAttribute>Georgia</playerAttribute>
+                <name>Georgia</name>
                 <region>UEFA</region>
             </value>
         </entry>
@@ -1050,7 +1050,7 @@
             <value>
                 <adjective>German</adjective>
                 <isoCode>DE</isoCode>
-                <playerAttribute>Germany</playerAttribute>
+                <name>Germany</name>
                 <region>UEFA</region>
             </value>
         </entry>
@@ -1059,7 +1059,7 @@
             <value>
                 <adjective>British</adjective>
                 <isoCode>GB</isoCode>
-                <playerAttribute>Great Britain</playerAttribute>
+                <name>Great Britain</name>
                 <region>UEFA</region>
             </value>
         </entry>
@@ -1068,7 +1068,7 @@
             <value>
                 <adjective>Greek</adjective>
                 <isoCode>GR</isoCode>
-                <playerAttribute>Greece</playerAttribute>
+                <name>Greece</name>
                 <region>UEFA</region>
             </value>
         </entry>
@@ -1077,7 +1077,7 @@
             <value>
                 <adjective>Dutch</adjective>
                 <isoCode>NL</isoCode>
-                <playerAttribute>Holland</playerAttribute>
+                <name>Holland</name>
                 <region>UEFA</region>
             </value>
         </entry>
@@ -1086,7 +1086,7 @@
             <value>
                 <adjective>Hungarian, Magyar</adjective>
                 <isoCode>HU</isoCode>
-                <playerAttribute>Hungary</playerAttribute>
+                <name>Hungary</name>
                 <region>UEFA</region>
             </value>
         </entry>
@@ -1095,7 +1095,7 @@
             <value>
                 <adjective>Icelandic</adjective>
                 <isoCode>IS</isoCode>
-                <playerAttribute>Iceland</playerAttribute>
+                <name>Iceland</name>
                 <region>UEFA</region>
             </value>
         </entry>
@@ -1104,7 +1104,7 @@
             <value>
                 <adjective>Israeli</adjective>
                 <isoCode>IL</isoCode>
-                <playerAttribute>Israel</playerAttribute>
+                <name>Israel</name>
                 <region>UEFA</region>
             </value>
         </entry>
@@ -1113,7 +1113,7 @@
             <value>
                 <adjective>Italian</adjective>
                 <isoCode>IT</isoCode>
-                <playerAttribute>Italy</playerAttribute>
+                <name>Italy</name>
                 <region>UEFA</region>
             </value>
         </entry>
@@ -1122,7 +1122,7 @@
             <value>
                 <adjective>Kazakh, Kazakhstani</adjective>
                 <isoCode>KZ</isoCode>
-                <playerAttribute>Kazakhstan</playerAttribute>
+                <name>Kazakhstan</name>
                 <region>UEFA</region>
             </value>
         </entry>
@@ -1131,7 +1131,7 @@
             <value>
                 <adjective>Latvian</adjective>
                 <isoCode>LV</isoCode>
-                <playerAttribute>Latvia</playerAttribute>
+                <name>Latvia</name>
                 <region>UEFA</region>
             </value>
         </entry>
@@ -1140,7 +1140,7 @@
             <value>
                 <adjective>Liechtenstein</adjective>
                 <isoCode>LI</isoCode>
-                <playerAttribute>Liechtenstein</playerAttribute>
+                <name>Liechtenstein</name>
                 <region>UEFA</region>
             </value>
         </entry>
@@ -1149,7 +1149,7 @@
             <value>
                 <adjective>Lithuanian</adjective>
                 <isoCode>LT</isoCode>
-                <playerAttribute>Lithuania</playerAttribute>
+                <name>Lithuania</name>
                 <region>UEFA</region>
             </value>
         </entry>
@@ -1158,7 +1158,7 @@
             <value>
                 <adjective>Luxembourg</adjective>
                 <isoCode>LU</isoCode>
-                <playerAttribute>Luxembourg</playerAttribute>
+                <name>Luxembourg</name>
                 <region>UEFA</region>
             </value>
         </entry>
@@ -1167,7 +1167,7 @@
             <value>
                 <adjective>Macedonian</adjective>
                 <isoCode>MK</isoCode>
-                <playerAttribute>Macedonia FYR</playerAttribute>
+                <name>Macedonia FYR</name>
                 <region>UEFA</region>
             </value>
         </entry>
@@ -1176,7 +1176,7 @@
             <value>
                 <adjective>Maltese</adjective>
                 <isoCode>MT</isoCode>
-                <playerAttribute>Malta</playerAttribute>
+                <name>Malta</name>
                 <region>UEFA</region>
             </value>
         </entry>
@@ -1185,7 +1185,7 @@
             <value>
                 <adjective>Moldovan</adjective>
                 <isoCode>MD</isoCode>
-                <playerAttribute>Moldova</playerAttribute>
+                <name>Moldova</name>
                 <region>UEFA</region>
             </value>
         </entry>
@@ -1194,7 +1194,7 @@
             <value>
                 <adjective>Monégasque, Monacan</adjective>
                 <isoCode>MC</isoCode>
-                <playerAttribute>Monaco</playerAttribute>
+                <name>Monaco</name>
                 <region>UEFA</region>
             </value>
         </entry>
@@ -1203,7 +1203,7 @@
             <value>
                 <adjective>Montenegrin</adjective>
                 <isoCode>ME</isoCode>
-                <playerAttribute>Montenegro</playerAttribute>
+                <name>Montenegro</name>
                 <region>UEFA</region>
             </value>
         </entry>
@@ -1212,7 +1212,7 @@
             <value>
                 <adjective>Northern Irish</adjective>
                 <isoCode>GB-NIR</isoCode>
-                <playerAttribute>Northern Ireland</playerAttribute>
+                <name>Northern Ireland</name>
                 <region>UEFA</region>
             </value>
         </entry>
@@ -1221,7 +1221,7 @@
             <value>
                 <adjective>Norwegian</adjective>
                 <isoCode>NO</isoCode>
-                <playerAttribute>Norway</playerAttribute>
+                <name>Norway</name>
                 <region>UEFA</region>
             </value>
         </entry>
@@ -1230,7 +1230,7 @@
             <value>
                 <adjective>Polish</adjective>
                 <isoCode>PL</isoCode>
-                <playerAttribute>Poland</playerAttribute>
+                <name>Poland</name>
                 <region>UEFA</region>
             </value>
         </entry>
@@ -1239,7 +1239,7 @@
             <value>
                 <adjective>Portuguese</adjective>
                 <isoCode>PT</isoCode>
-                <playerAttribute>Portugal</playerAttribute>
+                <name>Portugal</name>
                 <region>UEFA</region>
             </value>
         </entry>
@@ -1248,7 +1248,7 @@
             <value>
                 <adjective>Irish</adjective>
                 <isoCode>IE</isoCode>
-                <playerAttribute>Republic of Ireland</playerAttribute>
+                <name>Republic of Ireland</name>
                 <region>UEFA</region>
             </value>
         </entry>
@@ -1257,7 +1257,7 @@
             <value>
                 <adjective>Romanian</adjective>
                 <isoCode>RO</isoCode>
-                <playerAttribute>Romania</playerAttribute>
+                <name>Romania</name>
                 <region>UEFA</region>
             </value>
         </entry>
@@ -1266,7 +1266,7 @@
             <value>
                 <adjective>Russian</adjective>
                 <isoCode>RU</isoCode>
-                <playerAttribute>Russia</playerAttribute>
+                <name>Russia</name>
                 <region>UEFA</region>
             </value>
         </entry>
@@ -1275,7 +1275,7 @@
             <value>
                 <adjective>Sammarinese</adjective>
                 <isoCode>SM</isoCode>
-                <playerAttribute>San Marino</playerAttribute>
+                <name>San Marino</name>
                 <region>UEFA</region>
             </value>
         </entry>
@@ -1284,7 +1284,7 @@
             <value>
                 <adjective>Scottish</adjective>
                 <isoCode>GB-SCT</isoCode>
-                <playerAttribute>Scotland</playerAttribute>
+                <name>Scotland</name>
                 <region>UEFA</region>
             </value>
         </entry>
@@ -1293,7 +1293,7 @@
             <value>
                 <adjective>Serbian</adjective>
                 <isoCode>RS</isoCode>
-                <playerAttribute>Serbia</playerAttribute>
+                <name>Serbia</name>
                 <region>UEFA</region>
             </value>
         </entry>
@@ -1302,7 +1302,7 @@
             <value>
                 <adjective>Slovak</adjective>
                 <isoCode>SK</isoCode>
-                <playerAttribute>Slovakia</playerAttribute>
+                <name>Slovakia</name>
                 <region>UEFA</region>
             </value>
         </entry>
@@ -1311,7 +1311,7 @@
             <value>
                 <adjective>Slovenian</adjective>
                 <isoCode>SI</isoCode>
-                <playerAttribute>Slovenia</playerAttribute>
+                <name>Slovenia</name>
                 <region>UEFA</region>
             </value>
         </entry>
@@ -1320,7 +1320,7 @@
             <value>
                 <adjective>Spanish</adjective>
                 <isoCode>ES</isoCode>
-                <playerAttribute>Spain</playerAttribute>
+                <name>Spain</name>
                 <region>UEFA</region>
             </value>
         </entry>
@@ -1329,7 +1329,7 @@
             <value>
                 <adjective>Swedish</adjective>
                 <isoCode>SE</isoCode>
-                <playerAttribute>Sweden</playerAttribute>
+                <name>Sweden</name>
                 <region>UEFA</region>
             </value>
         </entry>
@@ -1338,7 +1338,7 @@
             <value>
                 <adjective>Swiss</adjective>
                 <isoCode>CH</isoCode>
-                <playerAttribute>Switzerland</playerAttribute>
+                <name>Switzerland</name>
                 <region>UEFA</region>
             </value>
         </entry>
@@ -1347,7 +1347,7 @@
             <value>
                 <adjective>Turkish</adjective>
                 <isoCode>TR</isoCode>
-                <playerAttribute>Turkey</playerAttribute>
+                <name>Turkey</name>
                 <region>UEFA</region>
             </value>
         </entry>
@@ -1356,7 +1356,7 @@
             <value>
                 <adjective>Ukrainian</adjective>
                 <isoCode>UA</isoCode>
-                <playerAttribute>Ukraine</playerAttribute>
+                <name>Ukraine</name>
                 <region>UEFA</region>
             </value>
         </entry>
@@ -1365,7 +1365,7 @@
             <value>
                 <adjective>Welsh</adjective>
                 <isoCode>GB-WLS</isoCode>
-                <playerAttribute>Wales</playerAttribute>
+                <name>Wales</name>
                 <region>UEFA</region>
             </value>
         </entry>
@@ -1374,7 +1374,7 @@
             <value>
                 <adjective>Vatican</adjective>
                 <isoCode>VA</isoCode>
-                <playerAttribute>Vatican</playerAttribute>
+                <name>Vatican</name>
                 <region>UEFA</region>
             </value>
         </entry>
@@ -1383,7 +1383,7 @@
             <value>
                 <adjective>Anguillan</adjective>
                 <isoCode>AI</isoCode>
-                <playerAttribute>Anguilla</playerAttribute>
+                <name>Anguilla</name>
                 <region>CONCACAF</region>
             </value>
         </entry>
@@ -1392,7 +1392,7 @@
             <value>
                 <adjective>Antiguan, Barbudan</adjective>
                 <isoCode>AG</isoCode>
-                <playerAttribute>Antigua &amp; Barbuda</playerAttribute>
+                <name>Antigua &amp; Barbuda</name>
                 <region>CONCACAF</region>
             </value>
         </entry>
@@ -1401,7 +1401,7 @@
             <value>
                 <adjective>Aruban</adjective>
                 <isoCode>AW</isoCode>
-                <playerAttribute>Aruba</playerAttribute>
+                <name>Aruba</name>
                 <region>CONCACAF</region>
             </value>
         </entry>
@@ -1410,7 +1410,7 @@
             <value>
                 <adjective>Bahamian</adjective>
                 <isoCode>BS</isoCode>
-                <playerAttribute>Bahamas</playerAttribute>
+                <name>Bahamas</name>
                 <region>CONCACAF</region>
             </value>
         </entry>
@@ -1419,7 +1419,7 @@
             <value>
                 <adjective>Barbadian</adjective>
                 <isoCode>BB</isoCode>
-                <playerAttribute>Barbados</playerAttribute>
+                <name>Barbados</name>
                 <region>CONCACAF</region>
             </value>
         </entry>
@@ -1428,7 +1428,7 @@
             <value>
                 <adjective>Belizean</adjective>
                 <isoCode>BZ</isoCode>
-                <playerAttribute>Belize</playerAttribute>
+                <name>Belize</name>
                 <region>CONCACAF</region>
             </value>
         </entry>
@@ -1437,7 +1437,7 @@
             <value>
                 <adjective>Bermudian, Bermudan</adjective>
                 <isoCode>BM</isoCode>
-                <playerAttribute>Bermuda</playerAttribute>
+                <name>Bermuda</name>
                 <region>CONCACAF</region>
             </value>
         </entry>
@@ -1446,7 +1446,7 @@
             <value>
                 <adjective>British Virgin Island</adjective>
                 <isoCode>VG</isoCode>
-                <playerAttribute>British Virgin Islands</playerAttribute>
+                <name>British Virgin Islands</name>
                 <region>CONCACAF</region>
             </value>
         </entry>
@@ -1455,7 +1455,7 @@
             <value>
                 <adjective>Canadian</adjective>
                 <isoCode>CA</isoCode>
-                <playerAttribute>Canada</playerAttribute>
+                <name>Canada</name>
                 <region>CONCACAF</region>
             </value>
         </entry>
@@ -1464,7 +1464,7 @@
             <value>
                 <adjective>Caymanian</adjective>
                 <isoCode>KY</isoCode>
-                <playerAttribute>Cayman Islands</playerAttribute>
+                <name>Cayman Islands</name>
                 <region>CONCACAF</region>
             </value>
         </entry>
@@ -1473,7 +1473,7 @@
             <value>
                 <adjective>Costa Rican</adjective>
                 <isoCode>CR</isoCode>
-                <playerAttribute>Costa Rica</playerAttribute>
+                <name>Costa Rica</name>
                 <region>CONCACAF</region>
             </value>
         </entry>
@@ -1482,7 +1482,7 @@
             <value>
                 <adjective>Cuban</adjective>
                 <isoCode>CU</isoCode>
-                <playerAttribute>Cuba</playerAttribute>
+                <name>Cuba</name>
                 <region>CONCACAF</region>
             </value>
         </entry>
@@ -1491,7 +1491,7 @@
             <value>
                 <adjective>Dominicand</adjective>
                 <isoCode>DM</isoCode>
-                <playerAttribute>Dominica</playerAttribute>
+                <name>Dominica</name>
                 <region>CONCACAF</region>
             </value>
         </entry>
@@ -1500,7 +1500,7 @@
             <value>
                 <adjective>Dominicane</adjective>
                 <isoCode>DO</isoCode>
-                <playerAttribute>Dominican Republic</playerAttribute>
+                <name>Dominican Republic</name>
                 <region>CONCACAF</region>
             </value>
         </entry>
@@ -1509,7 +1509,7 @@
             <value>
                 <adjective>Salvadoran</adjective>
                 <isoCode>SV</isoCode>
-                <playerAttribute>El Salvador</playerAttribute>
+                <name>El Salvador</name>
                 <region>CONCACAF</region>
             </value>
         </entry>
@@ -1518,7 +1518,7 @@
             <value>
                 <adjective>Grenadian</adjective>
                 <isoCode>GD</isoCode>
-                <playerAttribute>Grenada</playerAttribute>
+                <name>Grenada</name>
                 <region>CONCACAF</region>
             </value>
         </entry>
@@ -1527,7 +1527,7 @@
             <value>
                 <adjective>Guatemalan</adjective>
                 <isoCode>GT</isoCode>
-                <playerAttribute>Guatemala</playerAttribute>
+                <name>Guatemala</name>
                 <region>CONCACAF</region>
             </value>
         </entry>
@@ -1536,7 +1536,7 @@
             <value>
                 <adjective>Guyanese</adjective>
                 <isoCode>GY</isoCode>
-                <playerAttribute>Guyana</playerAttribute>
+                <name>Guyana</name>
                 <region>CONCACAF</region>
             </value>
         </entry>
@@ -1545,7 +1545,7 @@
             <value>
                 <adjective>Haitian</adjective>
                 <isoCode>HT</isoCode>
-                <playerAttribute>Haiti</playerAttribute>
+                <name>Haiti</name>
                 <region>CONCACAF</region>
             </value>
         </entry>
@@ -1554,7 +1554,7 @@
             <value>
                 <adjective>Honduran</adjective>
                 <isoCode>HN</isoCode>
-                <playerAttribute>Honduras</playerAttribute>
+                <name>Honduras</name>
                 <region>CONCACAF</region>
             </value>
         </entry>
@@ -1563,7 +1563,7 @@
             <value>
                 <adjective>Jamaican</adjective>
                 <isoCode>JM</isoCode>
-                <playerAttribute>Jamaica</playerAttribute>
+                <name>Jamaica</name>
                 <region>CONCACAF</region>
             </value>
         </entry>
@@ -1572,7 +1572,7 @@
             <value>
                 <adjective>Mexican</adjective>
                 <isoCode>MX</isoCode>
-                <playerAttribute>Mexico</playerAttribute>
+                <name>Mexico</name>
                 <region>CONCACAF</region>
             </value>
         </entry>
@@ -1581,7 +1581,7 @@
             <value>
                 <adjective>Montserratian</adjective>
                 <isoCode>MS</isoCode>
-                <playerAttribute>Montserrat</playerAttribute>
+                <name>Montserrat</name>
                 <region>CONCACAF</region>
             </value>
         </entry>
@@ -1590,7 +1590,7 @@
             <value>
                 <adjective>Netherlands Antillean</adjective>
                 <isoCode>AN</isoCode>
-                <playerAttribute>Netherland Antilles</playerAttribute>
+                <name>Netherland Antilles</name>
                 <region>CONCACAF</region>
             </value>
         </entry>
@@ -1599,7 +1599,7 @@
             <value>
                 <adjective>Nicaraguan</adjective>
                 <isoCode>NI</isoCode>
-                <playerAttribute>Nicaragua</playerAttribute>
+                <name>Nicaragua</name>
                 <region>CONCACAF</region>
             </value>
         </entry>
@@ -1608,7 +1608,7 @@
             <value>
                 <adjective>Panamanian</adjective>
                 <isoCode>PA</isoCode>
-                <playerAttribute>Panama</playerAttribute>
+                <name>Panama</name>
                 <region>CONCACAF</region>
             </value>
         </entry>
@@ -1617,7 +1617,7 @@
             <value>
                 <adjective>Puerto Rican</adjective>
                 <isoCode>PR</isoCode>
-                <playerAttribute>Puerto Rico</playerAttribute>
+                <name>Puerto Rico</name>
                 <region>CONCACAF</region>
             </value>
         </entry>
@@ -1626,7 +1626,7 @@
             <value>
                 <adjective>Kittitian, Nevisian</adjective>
                 <isoCode>KN</isoCode>
-                <playerAttribute>St Kitts &amp; Nevis</playerAttribute>
+                <name>St Kitts &amp; Nevis</name>
                 <region>CONCACAF</region>
             </value>
         </entry>
@@ -1635,7 +1635,7 @@
             <value>
                 <adjective>St. Lucian</adjective>
                 <isoCode>LC</isoCode>
-                <playerAttribute>St Lucia</playerAttribute>
+                <name>St Lucia</name>
                 <region>CONCACAF</region>
             </value>
         </entry>
@@ -1644,7 +1644,7 @@
             <value>
                 <adjective>Vincentian</adjective>
                 <isoCode>VC</isoCode>
-                <playerAttribute>St Vincent &amp; The Grenadines</playerAttribute>
+                <name>St Vincent &amp; The Grenadines</name>
                 <region>CONCACAF</region>
             </value>
         </entry>
@@ -1653,7 +1653,7 @@
             <value>
                 <adjective>Surinamese</adjective>
                 <isoCode>SR</isoCode>
-                <playerAttribute>Surinam</playerAttribute>
+                <name>Surinam</name>
                 <region>CONCACAF</region>
             </value>
         </entry>
@@ -1662,7 +1662,7 @@
             <value>
                 <adjective>Trinidadian, Tobagonian</adjective>
                 <isoCode>TT</isoCode>
-                <playerAttribute>Trinidad &amp; Tobago</playerAttribute>
+                <name>Trinidad &amp; Tobago</name>
                 <region>CONCACAF</region>
             </value>
         </entry>
@@ -1671,7 +1671,7 @@
             <value>
                 <adjective>Turks &amp; Caicos Islands</adjective>
                 <isoCode>TC</isoCode>
-                <playerAttribute>Turks &amp; Caicos Islands</playerAttribute>
+                <name>Turks &amp; Caicos Islands</name>
                 <region>CONCACAF</region>
             </value>
         </entry>
@@ -1680,7 +1680,7 @@
             <value>
                 <adjective>American</adjective>
                 <isoCode>US</isoCode>
-                <playerAttribute>United States of America</playerAttribute>
+                <name>United States of America</name>
                 <region>CONCACAF</region>
             </value>
         </entry>
@@ -1689,7 +1689,7 @@
             <value>
                 <adjective>Virgin Island</adjective>
                 <isoCode>VI</isoCode>
-                <playerAttribute>United States Virgin Islands</playerAttribute>
+                <name>United States Virgin Islands</name>
                 <region>CONCACAF</region>
             </value>
         </entry>
@@ -1698,7 +1698,7 @@
             <value>
                 <adjective>American Samoan</adjective>
                 <isoCode>AS</isoCode>
-                <playerAttribute>American Samoa</playerAttribute>
+                <name>American Samoa</name>
                 <region>OCEANIA</region>
             </value>
         </entry>
@@ -1707,7 +1707,7 @@
             <value>
                 <adjective>Australian</adjective>
                 <isoCode>AU</isoCode>
-                <playerAttribute>Australia</playerAttribute>
+                <name>Australia</name>
                 <region>ASIA</region>
             </value>
         </entry>
@@ -1716,7 +1716,7 @@
             <value>
                 <adjective>Cook Island</adjective>
                 <isoCode>CK</isoCode>
-                <playerAttribute>Cook Islands</playerAttribute>
+                <name>Cook Islands</name>
                 <region>OCEANIA</region>
             </value>
         </entry>
@@ -1725,7 +1725,7 @@
             <value>
                 <adjective>Fijian</adjective>
                 <isoCode>FJ</isoCode>
-                <playerAttribute>Fiji</playerAttribute>
+                <name>Fiji</name>
                 <region>OCEANIA</region>
             </value>
         </entry>
@@ -1734,7 +1734,7 @@
             <value>
                 <adjective>Kiribati</adjective>
                 <isoCode>KI</isoCode>
-                <playerAttribute>Kiribati</playerAttribute>
+                <name>Kiribati</name>
                 <region>OCEANIA</region>
             </value>
         </entry>
@@ -1743,7 +1743,7 @@
             <value>
                 <adjective>Marshallese</adjective>
                 <isoCode>MH</isoCode>
-                <playerAttribute>Marshall Islands</playerAttribute>
+                <name>Marshall Islands</name>
                 <region>OCEANIA</region>
             </value>
         </entry>
@@ -1752,7 +1752,7 @@
             <value>
                 <adjective>Micronesian</adjective>
                 <isoCode>FM</isoCode>
-                <playerAttribute>Micronesia</playerAttribute>
+                <name>Micronesia</name>
                 <region>OCEANIA</region>
             </value>
         </entry>
@@ -1761,7 +1761,7 @@
             <value>
                 <adjective>Nauruan</adjective>
                 <isoCode>NR</isoCode>
-                <playerAttribute>Nauru</playerAttribute>
+                <name>Nauru</name>
                 <region>OCEANIA</region>
             </value>
         </entry>
@@ -1770,7 +1770,7 @@
             <value>
                 <adjective>New Caledonian</adjective>
                 <isoCode>NC</isoCode>
-                <playerAttribute>New Caledonia</playerAttribute>
+                <name>New Caledonia</name>
                 <region>OCEANIA</region>
             </value>
         </entry>
@@ -1779,7 +1779,7 @@
             <value>
                 <adjective>New Zealand</adjective>
                 <isoCode>NZ</isoCode>
-                <playerAttribute>New Zealand</playerAttribute>
+                <name>New Zealand</name>
                 <region>OCEANIA</region>
             </value>
         </entry>
@@ -1788,7 +1788,7 @@
             <value>
                 <adjective>Palauan</adjective>
                 <isoCode>PW</isoCode>
-                <playerAttribute>Palau</playerAttribute>
+                <name>Palau</name>
                 <region>OCEANIA</region>
             </value>
         </entry>
@@ -1797,7 +1797,7 @@
             <value>
                 <adjective>Papua New Guinean, Papuan</adjective>
                 <isoCode>PG</isoCode>
-                <playerAttribute>Papua New Guinea</playerAttribute>
+                <name>Papua New Guinea</name>
                 <region>OCEANIA</region>
             </value>
         </entry>
@@ -1806,7 +1806,7 @@
             <value>
                 <adjective>Samoan</adjective>
                 <isoCode>WS</isoCode>
-                <playerAttribute>Samoa</playerAttribute>
+                <name>Samoa</name>
                 <region>OCEANIA</region>
             </value>
         </entry>
@@ -1815,14 +1815,14 @@
             <value>
                 <adjective>Solomon Island</adjective>
                 <isoCode>SB</isoCode>
-                <playerAttribute>Solomon Islands</playerAttribute>
+                <name>Solomon Islands</name>
                 <region>OCEANIA</region>
             </value>
         </entry>
         <entry>
             <value>
                 <adjective>Tahitian</adjective>
-                <playerAttribute>Tahiti</playerAttribute>
+                <name>Tahiti</name>
                 <region>OCEANIA</region>
             </value>
         </entry>
@@ -1831,7 +1831,7 @@
             <value>
                 <adjective>Tongan</adjective>
                 <isoCode>TO</isoCode>
-                <playerAttribute>Tonga</playerAttribute>
+                <name>Tonga</name>
                 <region>OCEANIA</region>
             </value>
         </entry>
@@ -1840,7 +1840,7 @@
             <value>
                 <adjective>Tuvaluan</adjective>
                 <isoCode>TV</isoCode>
-                <playerAttribute>Tuvalu</playerAttribute>
+                <name>Tuvalu</name>
                 <region>OCEANIA</region>
             </value>
         </entry>
@@ -1849,7 +1849,7 @@
             <value>
                 <adjective>Ni-Vanuatu, Vanuatuan</adjective>
                 <isoCode>VU</isoCode>
-                <playerAttribute>Vanuatu</playerAttribute>
+                <name>Vanuatu</name>
                 <region>OCEANIA</region>
             </value>
         </entry>
@@ -1858,7 +1858,7 @@
             <value>
                 <adjective>Argentinian</adjective>
                 <isoCode>AR</isoCode>
-                <playerAttribute>Argentina</playerAttribute>
+                <name>Argentina</name>
                 <region>SOUTH_AMERICA</region>
             </value>
         </entry>
@@ -1867,7 +1867,7 @@
             <value>
                 <adjective>Bolivian</adjective>
                 <isoCode>BO</isoCode>
-                <playerAttribute>Bolivia</playerAttribute>
+                <name>Bolivia</name>
                 <region>SOUTH_AMERICA</region>
             </value>
         </entry>
@@ -1876,7 +1876,7 @@
             <value>
                 <adjective>Brazilian</adjective>
                 <isoCode>BR</isoCode>
-                <playerAttribute>Brazil</playerAttribute>
+                <name>Brazil</name>
                 <region>SOUTH_AMERICA</region>
             </value>
         </entry>
@@ -1885,7 +1885,7 @@
             <value>
                 <adjective>Chilean</adjective>
                 <isoCode>CL</isoCode>
-                <playerAttribute>Chile</playerAttribute>
+                <name>Chile</name>
                 <region>SOUTH_AMERICA</region>
             </value>
         </entry>
@@ -1894,7 +1894,7 @@
             <value>
                 <adjective>Colombian</adjective>
                 <isoCode>CO</isoCode>
-                <playerAttribute>Colombia</playerAttribute>
+                <name>Colombia</name>
                 <region>SOUTH_AMERICA</region>
             </value>
         </entry>
@@ -1903,7 +1903,7 @@
             <value>
                 <adjective>Ecuadorian</adjective>
                 <isoCode>EC</isoCode>
-                <playerAttribute>Ecuador</playerAttribute>
+                <name>Ecuador</name>
                 <region>SOUTH_AMERICA</region>
             </value>
         </entry>
@@ -1912,7 +1912,7 @@
             <value>
                 <adjective>Paraguayan</adjective>
                 <isoCode>PY</isoCode>
-                <playerAttribute>Paraguay</playerAttribute>
+                <name>Paraguay</name>
                 <region>SOUTH_AMERICA</region>
             </value>
         </entry>
@@ -1921,7 +1921,7 @@
             <value>
                 <adjective>Peruvian</adjective>
                 <isoCode>PE</isoCode>
-                <playerAttribute>Peru</playerAttribute>
+                <name>Peru</name>
                 <region>SOUTH_AMERICA</region>
             </value>
         </entry>
@@ -1930,7 +1930,7 @@
             <value>
                 <adjective>Uruguayan</adjective>
                 <isoCode>UY</isoCode>
-                <playerAttribute>Uruguay</playerAttribute>
+                <name>Uruguay</name>
                 <region>SOUTH_AMERICA</region>
             </value>
         </entry>
@@ -1939,7 +1939,7 @@
             <value>
                 <adjective>Venezuelan</adjective>
                 <isoCode>VE</isoCode>
-                <playerAttribute>Venezuela</playerAttribute>
+                <name>Venezuela</name>
                 <region>SOUTH_AMERICA</region>
             </value>
         </entry>

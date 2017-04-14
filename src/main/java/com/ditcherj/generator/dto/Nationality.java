@@ -1,7 +1,7 @@
 package com.ditcherj.generator.dto;
 
-import java.io.Serializable;
 import javax.xml.bind.annotation.XmlRootElement;
+import java.io.Serializable;
 
 @XmlRootElement
 public class Nationality implements Serializable {
@@ -53,7 +53,13 @@ public class Nationality implements Serializable {
         this.region = region;
     }
 
+    @Override
     public String toString() {
-        return "com.ditcherj.generator.dto.Nationality{isoCode='" + this.isoCode + '\'' + ", name='" + this.name + '\'' + ", adjective='" + this.adjective + '\'' + ", region='" + this.region + '\'' + '}';
+        return "Nationality{" +
+                "isoCode='" + isoCode + '\'' +
+                ", name='" + name + '\'' +
+                ", adjective='" + adjective + '\'' +
+                ", region='" + region + '\'' +
+                '}';
     }
 }

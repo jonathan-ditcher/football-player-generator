@@ -1,14 +1,12 @@
 package com.ditcherj.generator;
 
 import com.ditcherj.generator.dto.Nationality;
-import com.ditcherj.generator.dto.Player;
 import com.ditcherj.generator.dto.Position;
 import com.ditcherj.generator.dto.TemplatePosition;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.util.ArrayList;
-import java.util.LinkedList;
 import java.util.List;
 import java.util.Random;
 
@@ -101,18 +99,16 @@ public class PlayerUtils {
         Template template1 = templates.get(rand.nextInt(templates.size()));
         if(template1.getRegion().name().toLowerCase().equals(nationality.getRegion().toLowerCase()))
             return template1;
-        else{
-            for(Template template : templates){
-                if(template.getPosition().equals(template1.getPosition()) && template.getRegion().name().toLowerCase().equals(nationality.getRegion().toLowerCase())){
-                    return template;
-                }
-            }
-        }
-        return template1;
+
+        return templates
+                .stream()
+                .filter(t -> t.getPosition().equals(t.getPosition().equals(template1.getPosition()) && t.getRegion().name().equalsIgnoreCase(nationality.getRegion())))
+                .findFirst()
+                .orElse(template1);
     }
 
     public static Template findSecondTemplate(List<Template> templates, Template template){
-        List<Weighting> possiblePositions = new ArrayList<Weighting>();
+        List<Weighting> possiblePositions = new ArrayList<>();
 
         possiblePositions.add(new Weighting(template.getPosition().name(), 100));
         switch (template.getPosition()){
@@ -159,12 +155,12 @@ public class PlayerUtils {
 
         String poss = weightedRandom(possiblePositions);
         TemplatePosition position = TemplatePosition.valueOf(poss);
-        for(Template template2 : templates){
-            if(template2.getPosition().equals(position))
-                return template2;
-        }
 
-        return null;
+        return templates
+                .stream()
+                .filter(t -> t.getPosition().equals(position))
+                .findFirst()
+                .orElse(null);
     }
 
     public static Position generatePosition(Template template1, Template template2, int leftFoot, int rightFoot){
@@ -225,7 +221,7 @@ public class PlayerUtils {
                 if(leftFoot > 15)
                     dl = 20;
 
-                if(template1.getType().name().toLowerCase().contains("att") || template1.getType().name().toLowerCase().contains("Versatile") || template1.getType().name().toLowerCase().contains("direct")){
+                if(template1.getType().name().toLowerCase().contains("att") || template1.getType().name().toLowerCase().contains("versatile") || template1.getType().name().toLowerCase().contains("direct")){
                     if(rightFoot > 15)
                         wbr = 10 + rand.nextInt(9);
                     if(leftFoot > 15)
@@ -280,7 +276,7 @@ public class PlayerUtils {
                         if(leftFoot > 15)
                             ml = 10 + rand.nextInt(9);
 
-                        if(template1.getType().name().toLowerCase().contains("attacking") || template1.getType().name().toLowerCase().contains("play_aker")){
+                        if(template1.getType().name().toLowerCase().contains("attacking") || template1.getType().name().toLowerCase().contains("play_maker")){
                             if(rightFoot > 15)
                                 amr = mr - rand.nextInt(3);
                             if(leftFoot > 15)

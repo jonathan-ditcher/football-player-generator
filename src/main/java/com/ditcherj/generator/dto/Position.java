@@ -3,6 +3,7 @@ package com.ditcherj.generator.dto;
 import java.io.Serializable;
 
 public class Position implements Serializable {
+
     private int leftFoot;
     private int rightFoot;
     private int gk;
@@ -197,96 +198,59 @@ public class Position implements Serializable {
     }
 
     public int getRight() {
-        int largest = this.dr;
-        if(this.wbr > largest) {
-            largest = this.wbr;
-        }
-
-        if(this.mr > largest) {
-            largest = this.mr;
-        }
-
-        if(this.amr > largest) {
-            largest = this.amr;
-        }
-
-        return largest;
+        return Math.max(Math.max(Math.max(this.dr, this.wbr), this.mr), this.amr);
     }
 
     public int getLeft() {
-        int largest = this.dl;
-        if(this.wbl > largest) {
-            largest = this.wbl;
-        }
-
-        if(this.ml > largest) {
-            largest = this.ml;
-        }
-
-        if(this.aml > largest) {
-            largest = this.aml;
-        }
-
-        return largest;
+        return Math.max(Math.max(Math.max(this.dl, this.wbl), this.ml), this.aml);
     }
 
     public int getCentre() {
-        int largest = this.dc;
-        if(this.dm > largest) {
-            largest = this.dm;
-        }
-
-        if(this.mc > largest) {
-            largest = this.mc;
-        }
-
-        if(this.amc > largest) {
-            largest = this.amc;
-        }
-
-        return largest;
+        return Math.max(Math.max(Math.max(this.dc, this.dm), this.mc), this.amc);
     }
 
     public String getDescription() {
+        final int threshold = 15;
+
         StringBuilder sb = new StringBuilder();
-        if(this.gk > 15) {
+        if(this.gk > threshold) {
             sb.append("/GK");
         }
 
-        if(this.getDefender() > 15) {
+        if(this.getDefender() > threshold) {
             sb.append("/D");
         }
 
-        if(this.getWingBack() > 15) {
+        if(this.getWingBack() > threshold) {
             sb.append("/WB");
         }
 
-        if(this.dm > 15) {
+        if(this.dm > threshold) {
             sb.append("/DM");
         }
 
-        if(this.getMidfielder() > 15) {
+        if(this.getMidfielder() > threshold) {
             sb.append("/M");
         }
 
-        if(this.getAttackingMidfielder() > 15) {
+        if(this.getAttackingMidfielder() > threshold) {
             sb.append("/AM");
         }
 
-        if(this.st > 15) {
+        if(this.st > threshold) {
             sb.append("/S");
         }
 
         sb.append(" ");
-        if(this.getRight() >= 15) {
+        if(this.getRight() >= threshold) {
             sb.append("R");
         }
 
-        if(this.getLeft() >= 15) {
+        if(this.getLeft() >= threshold) {
             sb.append("L");
         }
 
-        if(this.getCentre() >= 15) {
+        if(this.getCentre() >= threshold) {
             sb.append("C");
         }
 
