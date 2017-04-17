@@ -27,14 +27,17 @@ public class PlayerGenerator {
     }
 
     public List<Player> generatePlayers(int numToGenerate ) {
-        List<Player> players = new LinkedList<>();
-
         double maxAge = 40;
         double minAge = 15;
+        BetaDistribution beta = new BetaDistribution(2, 4);
+        return this.generatePlayers(numToGenerate, beta, minAge, maxAge);
+    }
+
+    public List<Player> generatePlayers(int numToGenerate, BetaDistribution beta, double minAge, double maxAge) {
+        List<Player> players = new LinkedList<>();
 
         double x;
         double b;
-        BetaDistribution beta = new BetaDistribution(2, 4);
         for (int i = 0; i < numToGenerate; i++) {
             x = Math.random();
             b = beta.inverseCumulativeProbability(x);
@@ -236,11 +239,11 @@ public class PlayerGenerator {
         int upper = (int) (upperMultiplier * 100.0);
 
         if(upper <= lower)
-            upper =lower+1;
+            upper = lower + 1;
 
         //logger.trace("age["+age+"] lower["+lower+"] lowerMultiplier["+lowerMultiplier+"] upper["+upper+"]");
         Random rand = new Random();
-        int num = rand.nextInt(upper- lower) + lower;
+        int num = rand.nextInt(upper - lower) + lower;
 
         return pa * ((double)num / 100.0);
     }
