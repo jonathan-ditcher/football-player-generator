@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <template>
+    <id>19</id>
     <attributes>
         <importance>1</importance>
         <playerAttribute>anticipation</playerAttribute>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <template>
+    <id>14</id>
     <attributes>
         <importance>15</importance>
         <playerAttribute>acceleration</playerAttribute>

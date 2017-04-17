@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <template>
+    <id>6</id>
     <description>Aggressive, commanding centre-back</description>
     <type>DC_COMMANDING2</type>
     <position>CENTER_BACK</position>

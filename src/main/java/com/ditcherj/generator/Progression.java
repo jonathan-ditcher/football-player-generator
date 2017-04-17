@@ -11,6 +11,8 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
 
+import static com.ditcherj.generator.PlayerGenerator.MAX_ATTRIBUTE_VALUE;
+
 /**
  * User: Jonathan
  * Date: 21/07/13
@@ -161,8 +163,8 @@ public class Progression {
                 x = pa_adjustmetn;
 
             Double value = player.getDoubleAttribute(attribute.getPlayerAttribute());
-            if(value + x > 20)
-                x = 20 - x;
+            if(value + x > MAX_ATTRIBUTE_VALUE)
+                x = MAX_ATTRIBUTE_VALUE - x;
 
             if(neg){
                 value = value - x;
@@ -171,8 +173,8 @@ public class Progression {
                 value = value + x;
             }
 
-            if(value > 20){
-                value = 20.0;
+            if(value > MAX_ATTRIBUTE_VALUE){
+                value = MAX_ATTRIBUTE_VALUE.doubleValue();
                 x = 0;
             }
             else if(value < 0){

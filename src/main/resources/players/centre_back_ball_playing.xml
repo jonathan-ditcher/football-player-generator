@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <template>
+    <id>4</id>
     <description>Covering, ball-playing centre-back</description>
     <type>DC_BALL_PLAYER</type>
     <position>CENTER_BACK</position>
