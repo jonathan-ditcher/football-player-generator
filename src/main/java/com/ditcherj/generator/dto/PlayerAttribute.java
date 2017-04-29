@@ -1,5 +1,8 @@
 package com.ditcherj.generator.dto;
 
+import javax.persistence.Embeddable;
+
+@Embeddable
 public enum PlayerAttribute {
     acceleration,
     adaptability,

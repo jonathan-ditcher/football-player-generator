@@ -20,7 +20,7 @@ public class Player implements Serializable {
 
     private Long id;
     private int age;
-    private String nationality;
+    private Nationality nationality;
     private String name;
     private Position position;
     private Integer seasonPATarget;
@@ -32,6 +32,9 @@ public class Player implements Serializable {
     private double currentAbility;
     private Map<PlayerAttribute, Double> attributes = new HashMap<>();
 
+    public Player() {
+    }
+
     public Player(Long id){
         this.id = id;
     }
@@ -39,7 +42,7 @@ public class Player implements Serializable {
     public Player(
             long id,
             int age,
-            String nationality,
+            Nationality nationality,
             double aerialAbility,
             double commandOfArea,
             double communication,
@@ -198,7 +201,9 @@ public class Player implements Serializable {
     }
 
     public double getDoubleAttribute(PlayerAttribute key){
-        return (double)this.getIntegerAttribute(key) / 100.0;
+        if(this.attributes.containsKey(key))
+            return (double)this.getIntegerAttribute(key) / 100.0;
+        else return 0;
     }
 
     public int getGoalKeepingRating(){
@@ -281,11 +286,11 @@ public class Player implements Serializable {
         this.age = age;
     }
 
-    public String getNationality() {
+    public Nationality getNationality() {
         return nationality;
     }
 
-    public void setNationality(String nationality) {
+    public void setNationality(Nationality nationality) {
         this.nationality = nationality;
     }
 
@@ -355,6 +360,14 @@ public class Player implements Serializable {
 
     public void setAnnualCurrentAbility(double annualCurrentAbility) {
         this.annualCurrentAbility = annualCurrentAbility;
+    }
+
+    public Map<PlayerAttribute, Double> getAttributes() {
+        return attributes;
+    }
+
+    public void setAttributes(Map<PlayerAttribute, Double> attributes) {
+        this.attributes = attributes;
     }
 
     @Override

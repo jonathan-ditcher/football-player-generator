@@ -120,7 +120,7 @@ public class PlayerGenerator {
     public Player generatePlayer(Template template1, Template template2, Nationality nationality, double ability, double initalAbility, double potentialAbility) throws NoSuchFieldException, NoSuchMethodException, InvocationTargetException, IllegalAccessException {
         logger.trace("template1[{}] template2[{}]", template1, template2);
         Player player = new Player(null);
-        player.setNationality(nationality.getIsoCode());
+        player.setNationality(nationality);
 
         double pa_adjustment = Math.pow((ability / 600.0), 0.5);
 
