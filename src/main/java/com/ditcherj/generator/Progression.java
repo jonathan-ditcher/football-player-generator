@@ -132,7 +132,7 @@ public class Progression {
         return player;
     }
 
-    public static void calcAttributes(double pa_adjustmetn, Player player, Template template) throws NoSuchFieldException, NoSuchMethodException, InvocationTargetException, IllegalAccessException {
+    private static void calcAttributes(double pa_adjustmetn, Player player, Template template) throws NoSuchFieldException, NoSuchMethodException, InvocationTargetException, IllegalAccessException {
        // logger.trace(pa_adjustmetn);
         double pa_distributable = pa_adjustmetn * 0.7;
 

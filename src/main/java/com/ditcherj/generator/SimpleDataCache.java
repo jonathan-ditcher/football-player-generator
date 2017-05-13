@@ -8,7 +8,6 @@ import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
 import javax.xml.bind.Unmarshaller;
 import java.io.File;
-import java.io.FileFilter;
 import java.io.InputStream;
 import java.util.LinkedList;
 import java.util.List;
@@ -24,6 +23,7 @@ public class SimpleDataCache {
     private Nationalities nationalities = new Nationalities();
     private NationWeightings nationWeightings = new NationWeightings();
     private final List<Template> templates = new LinkedList<>();
+    private Names names = new Names();
 
     private SimpleDataCache() {
         this.buildAllData();
@@ -37,6 +37,7 @@ public class SimpleDataCache {
         this.buildNationalities();
         this.buildNationWeightings();
         this.buildTemplates();
+        this.buildNames();
     }
 
     private void buildNationalities() {
@@ -44,7 +45,7 @@ public class SimpleDataCache {
 
         synchronized (this.nationalities) {
             try {
-                JAXBContext context = JAXBContext.newInstance(new Class[]{Nationalities.class});
+                JAXBContext context = JAXBContext.newInstance(Nationalities.class);
                 Unmarshaller unmarshaller = context.createUnmarshaller();
 
                 ClassLoader classLoader = Thread.currentThread().getContextClassLoader();
@@ -61,9 +62,8 @@ public class SimpleDataCache {
         logger.trace("");
 
         synchronized (this.nationWeightings) {
-
             try {
-                JAXBContext context = JAXBContext.newInstance(new Class[]{NationWeightings.class});
+                JAXBContext context = JAXBContext.newInstance(NationWeightings.class);
                 Unmarshaller unmarshaller = context.createUnmarshaller();
 
                 ClassLoader classLoader = Thread.currentThread().getContextClassLoader();
@@ -84,23 +84,36 @@ public class SimpleDataCache {
             this.templates.clear();
 
             try {
-                JAXBContext context = JAXBContext.newInstance(new Class[]{Template.class});
+                JAXBContext context = JAXBContext.newInstance(Template.class);
                 Unmarshaller unmarshaller = context.createUnmarshaller();
 
                 ClassLoader classLoader = Thread.currentThread().getContextClassLoader();
 
                 File file = new File(classLoader.getResource("players").getFile());
 
-                File[] files = file.listFiles(new FileFilter() {
-                    public boolean accept(File pathname) {
-                        return pathname.getName().endsWith(".xml");
-                    }
-                });
-
+                File[] files = file.listFiles(pathname -> pathname.getName().endsWith(".xml"));
                 for(File template : files)
                     this.templates.add((Template)unmarshaller.unmarshal(template));
 
             } catch (JAXBException e) {
+                e.printStackTrace();
+            }
+        }
+    }
+
+    private void buildNames() {
+        logger.trace("");
+
+        synchronized (this.names) {
+            try {
+                JAXBContext context = JAXBContext.newInstance(Names.class);
+                Unmarshaller unmarshaller = context.createUnmarshaller();
+
+                ClassLoader classLoader = Thread.currentThread().getContextClassLoader();
+                InputStream inputStream = classLoader.getResourceAsStream("names.xml");
+
+                this.names = (Names)unmarshaller.unmarshal(inputStream);
+            } catch (Exception e) {
                 e.printStackTrace();
             }
         }
@@ -121,6 +134,12 @@ public class SimpleDataCache {
     public List<Template> getTemplates() {
         synchronized (this.templates){
             return templates;
+        }
+    }
+
+    public Names getNames() {
+        synchronized (this.names){
+            return names;
         }
     }
 

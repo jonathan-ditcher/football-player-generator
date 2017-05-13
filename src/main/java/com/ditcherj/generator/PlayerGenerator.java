@@ -121,6 +121,7 @@ public class PlayerGenerator {
         logger.trace("template1[{}] template2[{}]", template1, template2);
         Player player = new Player(null);
         player.setNationality(nationality);
+        player.setName(this.getPlayerName(nationality));
 
         double pa_adjustment = Math.pow((ability / 600.0), 0.5);
 
@@ -220,6 +221,16 @@ public class PlayerGenerator {
 
         NationWeighting weighting = nationWeightings.get(Weighting.weightedRandom(weightings));
         return this.nationalities.get(weighting.getIsoCode());
+    }
+
+    private String getPlayerName(Nationality nationality) {
+        String defaultNation = "GB-ENG";
+
+        Name[] names = SimpleDataCache.getInstance().getNames().getNames().get(nationality.getIsoCode());
+        if(names == null || names.length == 0)
+            names = SimpleDataCache.getInstance().getNames().getNames().get(defaultNation);
+        Name name = names[rand.nextInt(names.length - 1)];
+        return name.getFullName();
     }
 
     public double generatePotentialAbility(){
