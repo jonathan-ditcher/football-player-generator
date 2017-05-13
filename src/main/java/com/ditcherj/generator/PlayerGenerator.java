@@ -21,6 +21,7 @@ public class PlayerGenerator {
     private static final double PA_BETA = 6.0;
     private static final double FEET_ALPHA = 2.0;
     private static final double FEET_BETA = 3.0;
+    private static final String DEFAULT_NAME_NATION = "GB-ENG";
     protected static final Integer MAX_ATTRIBUTE_VALUE = 20;
 
     private Map<String, Nationality> nationalities;
@@ -224,12 +225,11 @@ public class PlayerGenerator {
     }
 
     private String getPlayerName(Nationality nationality) {
-        String defaultNation = "GB-ENG";
-
         Name[] names = SimpleDataCache.getInstance().getNames().getNames().get(nationality.getIsoCode());
         if(names == null || names.length == 0)
-            names = SimpleDataCache.getInstance().getNames().getNames().get(defaultNation);
-        Name name = names[rand.nextInt(names.length - 1)];
+            names = SimpleDataCache.getInstance().getNames().getNames().get(DEFAULT_NAME_NATION);
+
+        Name name = names[rand.nextInt(names.length)];
         return name.getFullName();
     }
 
